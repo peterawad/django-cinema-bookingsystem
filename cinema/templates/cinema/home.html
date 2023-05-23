@@ -1,0 +1,69 @@
+{% extends "cinema/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+
+<!-- ======= Welcome Section ======= -->
+<section class="Welcome">
+  <div class="container d-flex flex-column align-items-center">
+    <h1>Welcome to UWEFLIX!</h1>
+  </div>
+</section><!-- End Welcome Section -->
+
+<!-- ======= Theater Section ======= -->
+<section class="theater">
+  <div class="container">
+    {% if theaters %}
+    {% for theater in theaters %}
+      <h3>{{ theater.name }} {% if theater.is_active == False %} - Inactive {% endif %}</h3>
+      <p>{{ theater.location }}</p>
+      {% if theater.movies %}
+        <div class="row">
+          {% for movie in theater.movies %}
+            <div class="col-6 col-md-3 mb-4">
+              <a href="/movies/{{movie.id}}" class="text-white">
+                {% if movie.image %}
+                  <img class="card-img-top" src="{{ movie.image }}" alt="{{ movie.name }}">
+                {% else %}
+                  <img class="card-img-top opacity-75" src="{% static 'img/movie-placeholder.png' %}" alt="{{ movie.name }}">
+                {% endif %}
+                <h6 class="p-2 text-center">{{ movie.name }}</h6>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% else %}
+      <p>No theaters are available.</p>
+    {% endif %}
+  </div>
+</section><!-- End Theater Section -->
+
+<!-- ======= About Us Section ======= -->
+<section class="about">
+  <div class="container">
+
+    <div class="row content">
+      <div class="col-lg-6">
+        <h2>Book.Enjoy.Repeat</h2>
+        <h3>Enjoy UWEFlix with us.</h3>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0">
+        
+        <h4>NOTE TO UWEFLIX MEMBERS AND GUESTS:</h4>
+        <p>We reserve the right to kindly inspect any objects that our guests choose to bring with them but we request that visitors refrain from</p>
+        <ul>
+          <li>Bringing oversize bags,</li>
+          <li>fancy-dress masks, and</li>
+          <li>fake weapons into the theatre.</li>
+        </ul>
+        <p class="fst-italic">Please respect UWEFLIX policies and rules.</p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Us Section -->
+
+{% endblock %}

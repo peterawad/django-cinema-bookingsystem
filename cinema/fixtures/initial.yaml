@@ -1,0 +1,4954 @@
+- model: cinema.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-05-05 20:42:13.604651+00:00
+    is_superuser: true
+    username: superuser
+    first_name: Superuser
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:22:34+00:00
+    club_name: null
+    email: superuser@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    balance_currency: GBP
+    balance: '5000.00'
+    created_at: 2022-12-15 17:41:28+00:00
+    updated_at: 2023-04-02 08:15:46.074994+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-05-05 17:58:13+00:00
+    is_superuser: false
+    username: cinema_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-02-15 17:36:02+00:00
+    club_name: null
+    email: cinema_manager1@example.com
+    role: CINEMA_MANAGER
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    balance_currency: GBP
+    balance: '2000.00'
+    created_at: 2022-12-15 20:49:32.730002+00:00
+    updated_at: 2023-05-05 20:42:27.073282+00:00
+    groups:
+    - 1
+    user_permissions:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 1
+    - 2
+    - 3
+    - 4
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+- model: cinema.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:39+00:00
+    is_superuser: false
+    username: club_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:52:37+00:00
+    club_name: bigsmokeclub
+    email: club_manager1@example.com
+    role: CLUB_MANAGER
+    date_of_birth: 2003-04-01
+    phone: '+447975777666'
+    land_phone: null
+    country: null
+    city: London
+    address: 10 Green Lane
+    postal_code: N76 1UI
+    balance_currency: GBP
+    balance: '878.50'
+    created_at: 2022-12-15 20:52:37.562841+00:00
+    updated_at: 2023-05-05 20:56:41.344044+00:00
+    groups:
+    - 2
+    user_permissions:
+    - 29
+- model: cinema.user
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: inactive
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: false
+    date_joined: 2022-12-15 21:08:14+00:00
+    club_name: null
+    email: inactive@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 21:08:14.178035+00:00
+    updated_at: 2022-12-15 21:08:38.755812+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 8
+  fields:
+    password: pbkdf2_sha256$390000$b8ZPAwtlCykwPovDZtBOiU$xtZQi7lmT/Zp36ER5WL0MFFAsxNX1h3i897K+sIhPkA=
+    last_login: null
+    is_superuser: false
+    username: customer1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:06:51.778498+00:00
+    club_name: null
+    email: customer1@example.com
+    role: CUSTOMER
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    balance_currency: GBP
+    balance: '500.00'
+    created_at: 2023-04-02 13:06:51.849176+00:00
+    updated_at: 2023-04-02 13:06:51.849184+00:00
+    groups:
+    - 4
+    user_permissions: []
+- model: cinema.user
+  pk: 9
+  fields:
+    password: pbkdf2_sha256$390000$xWTy4VzTS5kXNZKKiebhi9$JTkYOLw1RZnuZv9oUEhVW+FkBQjP6ItVQYIUC8mzWWE=
+    last_login: 2023-05-05 20:36:57.141753+00:00
+    is_superuser: false
+    username: Rafay
+    first_name: Rafay
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:07:21+00:00
+    club_name: null
+    email: student1@example.com
+    role: STUDENT
+    date_of_birth: 2000-12-05
+    phone: '+447743982671'
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    balance_currency: GBP
+    balance: '991.00'
+    created_at: 2023-04-02 13:07:21.274011+00:00
+    updated_at: 2023-05-05 20:38:28.529753+00:00
+    groups:
+    - 3
+    user_permissions:
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 16
+    - 24
+    - 20
+    - 25
+    - 49
+    - 28
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+- model: cinema.user
+  pk: 11
+  fields:
+    password: pbkdf2_sha256$390000$CgNDfvtNGaSTXgSGWyCaTC$cok08/TmgzHxQsvdXqQfmWJzblLt226kzm25p6Qk0rk=
+    last_login: 2023-05-05 20:29:31.873855+00:00
+    is_superuser: false
+    username: Adult_user
+    first_name: Adult_user
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-05-05 19:44:19+00:00
+    club_name: null
+    email: adult_user@gmail.com
+    role: Adult
+    date_of_birth: 2001-05-05
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    balance_currency: GBP
+    balance: '1975.00'
+    created_at: 2023-05-05 19:44:19.371935+00:00
+    updated_at: 2023-05-05 20:28:44.391367+00:00
+    groups: []
+    user_permissions:
+    - 29
+    - 30
+    - 31
+    - 32
+    - 8
+    - 16
+    - 24
+    - 20
+    - 49
+    - 26
+    - 28
+    - 45
+    - 46
+    - 47
+    - 48
+- model: cinema.theater
+  pk: 1
+  fields:
+    name: UWE Frenchay Campus
+    location: Stoke Gifford, Bristol BS16 1YN
+    is_active: true
+    created_at: 2022-12-15 20:33:45.246591+00:00
+    updated_at: 2023-05-04 21:49:50.622104+00:00
+- model: cinema.theater
+  pk: 2
+  fields:
+    name: UWE Glenside campus
+    location: Blackberry Hill, Stapleton, Bristol BS16 1DD
+    is_active: true
+    created_at: 2022-12-15 21:02:25.079346+00:00
+    updated_at: 2023-05-04 21:50:20.758811+00:00
+- model: cinema.theater
+  pk: 3
+  fields:
+    name: UWE Bower Ashton city campus
+    location: Kennel Lodge Rd, Bristol BS3 2JT
+    is_active: true
+    created_at: 2022-12-15 21:07:34.577768+00:00
+    updated_at: 2023-05-04 21:50:58.085180+00:00
+- model: cinema.category
+  pk: 1
+  fields:
+    name: Science Fiction
+    is_active: true
+- model: cinema.category
+  pk: 2
+  fields:
+    name: Comedy
+    is_active: true
+- model: cinema.category
+  pk: 3
+  fields:
+    name: Action
+    is_active: true
+- model: cinema.category
+  pk: 4
+  fields:
+    name: Inactive
+    is_active: false
+- model: cinema.category
+  pk: 5
+  fields:
+    name: Drama
+    is_active: true
+- model: cinema.movie
+  pk: 1
+  fields:
+    category: 1
+    name: Start Trek
+    description: The brash James T. Kirk tries to live up to his father's legacy with
+      Mr. Spock keeping him in check as a vengeful Romulan from the future creates
+      black holes to destroy the Federation one planet at a time.
+    image: cinema/static/storage/st.jpg
+    duration: 02:07:00
+    release_date: 2009-03-08
+    age_rating: PG-13
+    starts_at: 2022-12-15 20:34:40+00:00
+    ends_at: 2023-12-15 22:34:46+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 20:34:48.354836+00:00
+    updated_at: 2023-03-31 17:50:37.130227+00:00
+- model: cinema.movie
+  pk: 2
+  fields:
+    category: 3
+    name: Top Gun
+    description: As students at the United States Navy's elite fighter weapons school
+      compete to be best in the class, one daring young pilot learns a few things
+      from a civilian instructor that are not taught in the classroom.
+    image: cinema/static/storage/tg.jpg
+    duration: 01:49:00
+    release_date: 1986-10-03
+    age_rating: PG
+    starts_at: 2022-12-15 21:03:18+00:00
+    ends_at: 2023-12-15 21:03:21+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 21:03:40.851786+00:00
+    updated_at: 2023-03-31 17:47:29.982682+00:00
+- model: cinema.movie
+  pk: 3
+  fields:
+    category: 1
+    name: Inactive
+    description: Description of an inactive movie.
+    image: ''
+    duration: 02:00:00
+    release_date: 2023-03-31
+    age_rating: G
+    starts_at: 2022-12-24 19:03:59+00:00
+    ends_at: 2022-12-24 21:04:01+00:00
+    is_active: false
+    created_by: 1
+    created_at: 2022-12-15 21:04:11.818911+00:00
+    updated_at: 2023-03-31 17:45:21.789755+00:00
+- model: cinema.movie
+  pk: 4
+  fields:
+    category: 5
+    name: The Green Mile
+    description: 'The lives of guards on Death Row are affected by one of their charges:
+      a black man accused of child murder and rape, yet who has a mysterious gift.'
+    image: cinema/static/storage/gm.jpg
+    duration: 03:09:00
+    release_date: 2000-03-03
+    age_rating: R
+    starts_at: 2022-12-15 21:05:10+00:00
+    ends_at: 2023-12-15 21:05:12+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 21:05:18.217884+00:00
+    updated_at: 2023-03-31 17:43:31.465381+00:00
+- model: cinema.movie
+  pk: 5
+  fields:
+    category: 1
+    name: Star Wars
+    description: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a
+      Wookiee and two droids to save the galaxy from the Empire's world-destroying
+      battle station, while also attempting to rescue Princess Leia from the mysterious
+      Darth Vader.
+    image: cinema/static/storage/sw.jpg
+    duration: 02:01:00
+    release_date: 1977-12-27
+    age_rating: PG
+    starts_at: 2022-12-15 21:06:50+00:00
+    ends_at: 2023-12-15 21:06:52+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 21:06:58.692472+00:00
+    updated_at: 2023-03-31 17:44:20.755277+00:00
+- model: cinema.movie
+  pk: 6
+  fields:
+    category: 3
+    name: 'Avengers: Infinity War'
+    description: Soemthinf tandom
+    image: cinema/static/storage/av1.jpg
+    duration: 02:00:00
+    release_date: 2022-05-04
+    age_rating: PG
+    starts_at: 2022-05-04 18:50:01+00:00
+    ends_at: 2024-05-04 18:50:10+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 18:50:14.863396+00:00
+    updated_at: 2023-05-05 02:38:55.753846+00:00
+- model: cinema.movie
+  pk: 7
+  fields:
+    category: 5
+    name: Interstellar
+    description: some des
+    image: cinema/static/storage/62259_poster_148037241838.jpg
+    duration: 02:54:45
+    release_date: 2022-05-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 18:52:37+00:00
+    ends_at: 2024-05-04 18:52:39+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 18:52:43.672616+00:00
+    updated_at: 2023-05-05 02:39:11.181850+00:00
+- model: cinema.movie
+  pk: 8
+  fields:
+    category: 3
+    name: Batman v Superman
+    description: some dev
+    image: cinema/static/storage/batvsup.jpg
+    duration: 03:45:00
+    release_date: 2022-02-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 21:55:57+00:00
+    ends_at: 2023-11-04 21:55:59+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 21:56:17.542104+00:00
+    updated_at: 2023-05-04 21:56:17.542130+00:00
+- model: cinema.movie
+  pk: 9
+  fields:
+    category: 2
+    name: sus
+    description: sus
+    image: ''
+    duration: 02:00:00
+    release_date: 2023-05-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 22:04:13+00:00
+    ends_at: 2024-05-04 22:04:19+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 22:04:28.965365+00:00
+    updated_at: 2023-05-04 22:04:28.965388+00:00
+- model: cinema.movie
+  pk: 10
+  fields:
+    category: 1
+    name: 'Avengers: Endgame'
+    description: Some description
+    image: cinema/static/storage/avg2.jpg
+    duration: 02:46:00
+    release_date: 2022-12-05
+    age_rating: PG
+    starts_at: 2022-02-05 02:26:51+00:00
+    ends_at: 2024-02-05 02:27:06+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-05 02:27:21.948809+00:00
+    updated_at: 2023-05-05 02:27:21.948856+00:00
+- model: cinema.movie
+  pk: 11
+  fields:
+    category: 5
+    name: Fast and Furious 7
+    description: des
+    image: cinema/static/storage/ff7.jpg
+    duration: 02:43:00
+    release_date: 2014-05-05
+    age_rating: PG
+    starts_at: 2022-05-05 02:32:41+00:00
+    ends_at: 2025-05-05 02:32:43+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-05 02:33:11.057043+00:00
+    updated_at: 2023-05-05 02:34:52.676444+00:00
+- model: cinema.movie
+  pk: 12
+  fields:
+    category: 5
+    name: Inception
+    description: INS
+    image: cinema/static/storage/inv.jpg
+    duration: 02:45:00
+    release_date: 2012-05-05
+    age_rating: PG-13
+    starts_at: 2022-05-05 02:35:56+00:00
+    ends_at: 2023-09-05 02:35:57+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-05 02:36:31.417150+00:00
+    updated_at: 2023-05-05 02:37:57.571824+00:00
+- model: cinema.screen
+  pk: 16
+  fields:
+    theater: 1
+    movie: 6
+    name: Screen F1
+    type: Student
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:54:23.464818+00:00
+    updated_at: 2023-05-05 18:54:23.464849+00:00
+- model: cinema.screen
+  pk: 17
+  fields:
+    theater: 1
+    movie: 7
+    name: Screen F2
+    type: Student
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:54:56.801612+00:00
+    updated_at: 2023-05-05 18:55:44.501539+00:00
+- model: cinema.screen
+  pk: 18
+  fields:
+    theater: 1
+    movie: 8
+    name: Screen F3
+    type: Adult
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:56:21.411087+00:00
+    updated_at: 2023-05-05 18:56:21.411112+00:00
+- model: cinema.screen
+  pk: 19
+  fields:
+    theater: 2
+    movie: 6
+    name: Screen G1
+    type: Student
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:56:59.172577+00:00
+    updated_at: 2023-05-05 18:56:59.172605+00:00
+- model: cinema.screen
+  pk: 20
+  fields:
+    theater: 2
+    movie: 11
+    name: Screen G2
+    type: Student
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:57:22.143968+00:00
+    updated_at: 2023-05-05 18:57:22.144004+00:00
+- model: cinema.screen
+  pk: 22
+  fields:
+    theater: 2
+    movie: 12
+    name: Screen 3
+    type: Adult
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:59:18.438647+00:00
+    updated_at: 2023-05-05 18:59:18.438671+00:00
+- model: cinema.screen
+  pk: 23
+  fields:
+    theater: 3
+    movie: 10
+    name: Screen B1
+    type: Student
+    total_seats: 12
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 18:59:45.189602+00:00
+    updated_at: 2023-05-05 18:59:45.189641+00:00
+- model: cinema.screen
+  pk: 24
+  fields:
+    theater: 3
+    movie: 12
+    name: Screen B2
+    type: Student
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 19:00:08.441126+00:00
+    updated_at: 2023-05-05 19:00:08.441156+00:00
+- model: cinema.screen
+  pk: 25
+  fields:
+    theater: 1
+    movie: 10
+    name: Screen F4
+    type: Student
+    total_seats: 20
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 19:01:45.659967+00:00
+    updated_at: 2023-05-05 19:01:45.659996+00:00
+- model: cinema.screen
+  pk: 26
+  fields:
+    theater: 1
+    movie: 12
+    name: Screen f5
+    type: Adult
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 19:02:33.746765+00:00
+    updated_at: 2023-05-05 19:02:33.746789+00:00
+- model: cinema.ticket
+  pk: 261
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467197+00:00
+    updated_at: 2023-05-05 18:54:23.467225+00:00
+- model: cinema.ticket
+  pk: 262
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467266+00:00
+    updated_at: 2023-05-05 18:54:23.467279+00:00
+- model: cinema.ticket
+  pk: 263
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467310+00:00
+    updated_at: 2023-05-05 18:54:23.467321+00:00
+- model: cinema.ticket
+  pk: 264
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467351+00:00
+    updated_at: 2023-05-05 18:54:23.467361+00:00
+- model: cinema.ticket
+  pk: 265
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467391+00:00
+    updated_at: 2023-05-05 18:54:23.467403+00:00
+- model: cinema.ticket
+  pk: 266
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467434+00:00
+    updated_at: 2023-05-05 18:54:23.467445+00:00
+- model: cinema.ticket
+  pk: 267
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467474+00:00
+    updated_at: 2023-05-05 18:54:23.467485+00:00
+- model: cinema.ticket
+  pk: 268
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467515+00:00
+    updated_at: 2023-05-05 18:54:23.467525+00:00
+- model: cinema.ticket
+  pk: 269
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467554+00:00
+    updated_at: 2023-05-05 18:54:23.467567+00:00
+- model: cinema.ticket
+  pk: 270
+  fields:
+    screen: 16
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:23.467627+00:00
+    updated_at: 2023-05-05 18:54:23.467640+00:00
+- model: cinema.ticket
+  pk: 271
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804023+00:00
+    updated_at: 2023-05-05 18:54:56.804060+00:00
+- model: cinema.ticket
+  pk: 272
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804125+00:00
+    updated_at: 2023-05-05 18:54:56.804144+00:00
+- model: cinema.ticket
+  pk: 273
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804193+00:00
+    updated_at: 2023-05-05 18:54:56.804211+00:00
+- model: cinema.ticket
+  pk: 274
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804262+00:00
+    updated_at: 2023-05-05 18:54:56.804283+00:00
+- model: cinema.ticket
+  pk: 275
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804331+00:00
+    updated_at: 2023-05-05 18:54:56.804352+00:00
+- model: cinema.ticket
+  pk: 276
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804409+00:00
+    updated_at: 2023-05-05 18:54:56.804428+00:00
+- model: cinema.ticket
+  pk: 277
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804476+00:00
+    updated_at: 2023-05-05 18:54:56.804518+00:00
+- model: cinema.ticket
+  pk: 278
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804575+00:00
+    updated_at: 2023-05-05 18:54:56.804596+00:00
+- model: cinema.ticket
+  pk: 279
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804651+00:00
+    updated_at: 2023-05-05 18:54:56.804673+00:00
+- model: cinema.ticket
+  pk: 280
+  fields:
+    screen: 17
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:54:56.804739+00:00
+    updated_at: 2023-05-05 18:54:56.804753+00:00
+- model: cinema.ticket
+  pk: 281
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413320+00:00
+    updated_at: 2023-05-05 18:56:21.413343+00:00
+- model: cinema.ticket
+  pk: 282
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413373+00:00
+    updated_at: 2023-05-05 18:56:21.413383+00:00
+- model: cinema.ticket
+  pk: 283
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413409+00:00
+    updated_at: 2023-05-05 18:56:21.413418+00:00
+- model: cinema.ticket
+  pk: 284
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413442+00:00
+    updated_at: 2023-05-05 18:56:21.413451+00:00
+- model: cinema.ticket
+  pk: 285
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413474+00:00
+    updated_at: 2023-05-05 18:56:21.413483+00:00
+- model: cinema.ticket
+  pk: 286
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413506+00:00
+    updated_at: 2023-05-05 18:56:21.413514+00:00
+- model: cinema.ticket
+  pk: 287
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413537+00:00
+    updated_at: 2023-05-05 18:56:21.413545+00:00
+- model: cinema.ticket
+  pk: 288
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413567+00:00
+    updated_at: 2023-05-05 18:56:21.413575+00:00
+- model: cinema.ticket
+  pk: 289
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413596+00:00
+    updated_at: 2023-05-05 18:56:21.413604+00:00
+- model: cinema.ticket
+  pk: 290
+  fields:
+    screen: 18
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:21.413626+00:00
+    updated_at: 2023-05-05 18:56:21.413634+00:00
+- model: cinema.ticket
+  pk: 291
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176555+00:00
+    updated_at: 2023-05-05 18:56:59.176584+00:00
+- model: cinema.ticket
+  pk: 292
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176623+00:00
+    updated_at: 2023-05-05 18:56:59.176635+00:00
+- model: cinema.ticket
+  pk: 293
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176668+00:00
+    updated_at: 2023-05-05 18:56:59.176679+00:00
+- model: cinema.ticket
+  pk: 294
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176744+00:00
+    updated_at: 2023-05-05 18:56:59.176757+00:00
+- model: cinema.ticket
+  pk: 295
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176788+00:00
+    updated_at: 2023-05-05 18:56:59.176799+00:00
+- model: cinema.ticket
+  pk: 296
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176830+00:00
+    updated_at: 2023-05-05 18:56:59.176840+00:00
+- model: cinema.ticket
+  pk: 297
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176871+00:00
+    updated_at: 2023-05-05 18:56:59.176882+00:00
+- model: cinema.ticket
+  pk: 298
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176911+00:00
+    updated_at: 2023-05-05 18:56:59.176922+00:00
+- model: cinema.ticket
+  pk: 299
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176953+00:00
+    updated_at: 2023-05-05 18:56:59.176963+00:00
+- model: cinema.ticket
+  pk: 300
+  fields:
+    screen: 19
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:56:59.176993+00:00
+    updated_at: 2023-05-05 18:56:59.177003+00:00
+- model: cinema.ticket
+  pk: 301
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.154468+00:00
+    updated_at: 2023-05-05 18:57:22.154511+00:00
+- model: cinema.ticket
+  pk: 302
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.154833+00:00
+    updated_at: 2023-05-05 18:57:22.154863+00:00
+- model: cinema.ticket
+  pk: 303
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.154962+00:00
+    updated_at: 2023-05-05 18:57:22.154991+00:00
+- model: cinema.ticket
+  pk: 304
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155071+00:00
+    updated_at: 2023-05-05 18:57:22.155162+00:00
+- model: cinema.ticket
+  pk: 305
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155258+00:00
+    updated_at: 2023-05-05 18:57:22.155280+00:00
+- model: cinema.ticket
+  pk: 306
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155339+00:00
+    updated_at: 2023-05-05 18:57:22.155359+00:00
+- model: cinema.ticket
+  pk: 307
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155412+00:00
+    updated_at: 2023-05-05 18:57:22.155431+00:00
+- model: cinema.ticket
+  pk: 308
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155661+00:00
+    updated_at: 2023-05-05 18:57:22.155689+00:00
+- model: cinema.ticket
+  pk: 309
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155787+00:00
+    updated_at: 2023-05-05 18:57:22.155809+00:00
+- model: cinema.ticket
+  pk: 310
+  fields:
+    screen: 20
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:57:22.155864+00:00
+    updated_at: 2023-05-05 18:57:22.155957+00:00
+- model: cinema.ticket
+  pk: 321
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440535+00:00
+    updated_at: 2023-05-05 18:59:18.440558+00:00
+- model: cinema.ticket
+  pk: 322
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440588+00:00
+    updated_at: 2023-05-05 18:59:18.440597+00:00
+- model: cinema.ticket
+  pk: 323
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440621+00:00
+    updated_at: 2023-05-05 18:59:18.440630+00:00
+- model: cinema.ticket
+  pk: 324
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440676+00:00
+    updated_at: 2023-05-05 18:59:18.440689+00:00
+- model: cinema.ticket
+  pk: 325
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440717+00:00
+    updated_at: 2023-05-05 18:59:18.440726+00:00
+- model: cinema.ticket
+  pk: 326
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440751+00:00
+    updated_at: 2023-05-05 18:59:18.440759+00:00
+- model: cinema.ticket
+  pk: 327
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440782+00:00
+    updated_at: 2023-05-05 18:59:18.440790+00:00
+- model: cinema.ticket
+  pk: 328
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440813+00:00
+    updated_at: 2023-05-05 18:59:18.440821+00:00
+- model: cinema.ticket
+  pk: 329
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440844+00:00
+    updated_at: 2023-05-05 18:59:18.440852+00:00
+- model: cinema.ticket
+  pk: 330
+  fields:
+    screen: 22
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:18.440874+00:00
+    updated_at: 2023-05-05 18:59:18.440883+00:00
+- model: cinema.ticket
+  pk: 331
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.192873+00:00
+    updated_at: 2023-05-05 18:59:45.192911+00:00
+- model: cinema.ticket
+  pk: 332
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.192975+00:00
+    updated_at: 2023-05-05 18:59:45.192996+00:00
+- model: cinema.ticket
+  pk: 333
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193044+00:00
+    updated_at: 2023-05-05 18:59:45.193059+00:00
+- model: cinema.ticket
+  pk: 334
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193087+00:00
+    updated_at: 2023-05-05 18:59:45.193097+00:00
+- model: cinema.ticket
+  pk: 335
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193124+00:00
+    updated_at: 2023-05-05 18:59:45.193144+00:00
+- model: cinema.ticket
+  pk: 336
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193198+00:00
+    updated_at: 2023-05-05 18:59:45.193215+00:00
+- model: cinema.ticket
+  pk: 337
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193367+00:00
+    updated_at: 2023-05-05 18:59:45.193391+00:00
+- model: cinema.ticket
+  pk: 338
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193443+00:00
+    updated_at: 2023-05-05 18:59:45.193464+00:00
+- model: cinema.ticket
+  pk: 339
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193495+00:00
+    updated_at: 2023-05-05 18:59:45.193505+00:00
+- model: cinema.ticket
+  pk: 340
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193532+00:00
+    updated_at: 2023-05-05 18:59:45.193541+00:00
+- model: cinema.ticket
+  pk: 341
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193567+00:00
+    updated_at: 2023-05-05 18:59:45.193576+00:00
+- model: cinema.ticket
+  pk: 342
+  fields:
+    screen: 23
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 18:59:45.193601+00:00
+    updated_at: 2023-05-05 18:59:45.193610+00:00
+- model: cinema.ticket
+  pk: 343
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.444581+00:00
+    updated_at: 2023-05-05 19:00:08.444623+00:00
+- model: cinema.ticket
+  pk: 344
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.444683+00:00
+    updated_at: 2023-05-05 19:00:08.444703+00:00
+- model: cinema.ticket
+  pk: 345
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.444755+00:00
+    updated_at: 2023-05-05 19:00:08.444772+00:00
+- model: cinema.ticket
+  pk: 346
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.444819+00:00
+    updated_at: 2023-05-05 19:00:08.444835+00:00
+- model: cinema.ticket
+  pk: 347
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.444882+00:00
+    updated_at: 2023-05-05 19:00:08.444898+00:00
+- model: cinema.ticket
+  pk: 348
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.444943+00:00
+    updated_at: 2023-05-05 19:00:08.444960+00:00
+- model: cinema.ticket
+  pk: 349
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.445009+00:00
+    updated_at: 2023-05-05 19:00:08.445027+00:00
+- model: cinema.ticket
+  pk: 350
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.445061+00:00
+    updated_at: 2023-05-05 19:00:08.445072+00:00
+- model: cinema.ticket
+  pk: 351
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.445103+00:00
+    updated_at: 2023-05-05 19:00:08.445114+00:00
+- model: cinema.ticket
+  pk: 352
+  fields:
+    screen: 24
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:00:08.445143+00:00
+    updated_at: 2023-05-05 19:00:08.445154+00:00
+- model: cinema.ticket
+  pk: 353
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663427+00:00
+    updated_at: 2023-05-05 19:01:45.663458+00:00
+- model: cinema.ticket
+  pk: 354
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663497+00:00
+    updated_at: 2023-05-05 19:01:45.663509+00:00
+- model: cinema.ticket
+  pk: 355
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663541+00:00
+    updated_at: 2023-05-05 19:01:45.663552+00:00
+- model: cinema.ticket
+  pk: 356
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663581+00:00
+    updated_at: 2023-05-05 19:01:45.663592+00:00
+- model: cinema.ticket
+  pk: 357
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663623+00:00
+    updated_at: 2023-05-05 19:01:45.663634+00:00
+- model: cinema.ticket
+  pk: 358
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663666+00:00
+    updated_at: 2023-05-05 19:01:45.663677+00:00
+- model: cinema.ticket
+  pk: 359
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663795+00:00
+    updated_at: 2023-05-05 19:01:45.663809+00:00
+- model: cinema.ticket
+  pk: 360
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663840+00:00
+    updated_at: 2023-05-05 19:01:45.663851+00:00
+- model: cinema.ticket
+  pk: 361
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663879+00:00
+    updated_at: 2023-05-05 19:01:45.663890+00:00
+- model: cinema.ticket
+  pk: 362
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663918+00:00
+    updated_at: 2023-05-05 20:28:13.535118+00:00
+- model: cinema.ticket
+  pk: 363
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.663958+00:00
+    updated_at: 2023-05-05 19:01:45.663972+00:00
+- model: cinema.ticket
+  pk: 364
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664066+00:00
+    updated_at: 2023-05-05 19:01:45.664093+00:00
+- model: cinema.ticket
+  pk: 365
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664156+00:00
+    updated_at: 2023-05-05 19:01:45.664180+00:00
+- model: cinema.ticket
+  pk: 366
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664254+00:00
+    updated_at: 2023-05-05 19:01:45.664301+00:00
+- model: cinema.ticket
+  pk: 367
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664380+00:00
+    updated_at: 2023-05-05 19:01:45.664404+00:00
+- model: cinema.ticket
+  pk: 368
+  fields:
+    screen: 25
+    customer: 9
+    seat_number: 16
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664447+00:00
+    updated_at: 2023-05-05 20:38:28.521024+00:00
+- model: cinema.ticket
+  pk: 369
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664511+00:00
+    updated_at: 2023-05-05 19:01:45.664525+00:00
+- model: cinema.ticket
+  pk: 370
+  fields:
+    screen: 25
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664557+00:00
+    updated_at: 2023-05-05 19:01:45.664568+00:00
+- model: cinema.ticket
+  pk: 371
+  fields:
+    screen: 25
+    customer: 11
+    seat_number: 19
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 19:01:45.664598+00:00
+    updated_at: 2023-05-05 20:28:44.382085+00:00
+- model: cinema.ticket
+  pk: 372
+  fields:
+    screen: 25
+    customer: 9
+    seat_number: 20
+    price_currency: GBP
+    price: '10.00'
+    issued_at: 2023-05-05 19:04:29.602492+00:00
+    created_at: 2023-05-05 19:01:45.664656+00:00
+    updated_at: 2023-05-05 19:04:29.602580+00:00
+- model: cinema.ticket
+  pk: 373
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.748846+00:00
+    updated_at: 2023-05-05 19:02:33.748878+00:00
+- model: cinema.ticket
+  pk: 374
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.748936+00:00
+    updated_at: 2023-05-05 19:02:33.748955+00:00
+- model: cinema.ticket
+  pk: 375
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749007+00:00
+    updated_at: 2023-05-05 19:02:33.749027+00:00
+- model: cinema.ticket
+  pk: 376
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749075+00:00
+    updated_at: 2023-05-05 19:02:33.749098+00:00
+- model: cinema.ticket
+  pk: 377
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749225+00:00
+    updated_at: 2023-05-05 19:02:33.749244+00:00
+- model: cinema.ticket
+  pk: 378
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749298+00:00
+    updated_at: 2023-05-05 19:02:33.749325+00:00
+- model: cinema.ticket
+  pk: 379
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749360+00:00
+    updated_at: 2023-05-05 19:02:33.749370+00:00
+- model: cinema.ticket
+  pk: 380
+  fields:
+    screen: 26
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749421+00:00
+    updated_at: 2023-05-05 19:02:33.749459+00:00
+- model: cinema.ticket
+  pk: 381
+  fields:
+    screen: 26
+    customer: 9
+    seat_number: 9
+    price_currency: GBP
+    price: '15.00'
+    issued_at: 2023-05-05 19:03:48.614900+00:00
+    created_at: 2023-05-05 19:02:33.749749+00:00
+    updated_at: 2023-05-05 19:03:48.615000+00:00
+- model: cinema.ticket
+  pk: 382
+  fields:
+    screen: 26
+    customer: 11
+    seat_number: 10
+    price_currency: GBP
+    price: '15.00'
+    issued_at: null
+    created_at: 2023-05-05 19:02:33.749859+00:00
+    updated_at: 2023-05-05 19:55:29.322355+00:00
+- model: admin.logentry
+  pk: 1
+  fields:
+    action_time: 2023-05-04 18:48:28.635576+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 2
+  fields:
+    action_time: 2023-05-04 18:48:36.550819+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 3
+  fields:
+    action_time: 2023-05-04 18:50:14.864883+00:00
+    user: 1
+    content_type: 4
+    object_id: '6'
+    object_repr: Avengers
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 4
+  fields:
+    action_time: 2023-05-04 18:50:31.880601+00:00
+    user: 1
+    content_type: 6
+    object_id: '7'
+    object_repr: 'London: Screen 1: Avengers'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 5
+  fields:
+    action_time: 2023-05-04 18:52:43.674764+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 6
+  fields:
+    action_time: 2023-05-04 18:53:13.578540+00:00
+    user: 1
+    content_type: 6
+    object_id: '8'
+    object_repr: 'London: screen 2: interstellar'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 7
+  fields:
+    action_time: 2023-05-04 21:48:49.068771+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 8
+  fields:
+    action_time: 2023-05-04 21:48:49.086267+00:00
+    user: 1
+    content_type: 4
+    object_id: '4'
+    object_repr: The Green Mile
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 9
+  fields:
+    action_time: 2023-05-04 21:48:49.093924+00:00
+    user: 1
+    content_type: 4
+    object_id: '1'
+    object_repr: Start Trek
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 10
+  fields:
+    action_time: 2023-05-04 21:49:49.047191+00:00
+    user: 1
+    content_type: 5
+    object_id: '1'
+    object_repr: UWE Frenchay Campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location"]}}]'
+- model: admin.logentry
+  pk: 11
+  fields:
+    action_time: 2023-05-04 21:49:50.626097+00:00
+    user: 1
+    content_type: 5
+    object_id: '1'
+    object_repr: UWE Frenchay Campus
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 12
+  fields:
+    action_time: 2023-05-04 21:50:20.760483+00:00
+    user: 1
+    content_type: 5
+    object_id: '2'
+    object_repr: UWE Glenside campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location"]}}]'
+- model: admin.logentry
+  pk: 13
+  fields:
+    action_time: 2023-05-04 21:50:58.087420+00:00
+    user: 1
+    content_type: 5
+    object_id: '3'
+    object_repr: UWE Bower Ashton city campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location", "Active"]}}]'
+- model: admin.logentry
+  pk: 14
+  fields:
+    action_time: 2023-05-04 21:54:09.651228+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: Top Gun
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 15
+  fields:
+    action_time: 2023-05-04 21:54:20.491273+00:00
+    user: 1
+    content_type: 4
+    object_id: '3'
+    object_repr: Inactive
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 16
+  fields:
+    action_time: 2023-05-04 21:56:17.543951+00:00
+    user: 1
+    content_type: 4
+    object_id: '8'
+    object_repr: Batman v Superman
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 17
+  fields:
+    action_time: 2023-05-04 21:56:52.108730+00:00
+    user: 1
+    content_type: 6
+    object_id: '9'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: Batman v Superman'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 18
+  fields:
+    action_time: 2023-05-04 22:04:28.966931+00:00
+    user: 1
+    content_type: 4
+    object_id: '9'
+    object_repr: sus
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 19
+  fields:
+    action_time: 2023-05-04 22:05:34.167292+00:00
+    user: 1
+    content_type: 6
+    object_id: '10'
+    object_repr: 'UWE Glenside campus: screen 1B: sus'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 20
+  fields:
+    action_time: 2023-05-04 22:10:03.532624+00:00
+    user: 1
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 21
+  fields:
+    action_time: 2023-05-04 22:10:43.914503+00:00
+    user: 1
+    content_type: 1
+    object_id: '3'
+    object_repr: club_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 22
+  fields:
+    action_time: 2023-05-05 02:24:52.762106+00:00
+    user: 1
+    content_type: 4
+    object_id: '9'
+    object_repr: sus
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 23
+  fields:
+    action_time: 2023-05-05 02:25:34.962134+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 24
+  fields:
+    action_time: 2023-05-05 02:25:42.361750+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 25
+  fields:
+    action_time: 2023-05-05 02:27:21.952031+00:00
+    user: 1
+    content_type: 4
+    object_id: '10'
+    object_repr: 'Avengers: Endgame'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 26
+  fields:
+    action_time: 2023-05-05 02:27:43.360328+00:00
+    user: 1
+    content_type: 6
+    object_id: '11'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: Avengers: Endgame'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 27
+  fields:
+    action_time: 2023-05-05 02:28:55.203393+00:00
+    user: 1
+    content_type: 6
+    object_id: '12'
+    object_repr: 'UWE Glenside campus: Screen1B: Star Wars'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 28
+  fields:
+    action_time: 2023-05-05 02:30:45.336489+00:00
+    user: 1
+    content_type: 6
+    object_id: '6'
+    object_repr: 'UWE Glenside campus: VIP 1: Avengers'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie"]}}]'
+- model: admin.logentry
+  pk: 29
+  fields:
+    action_time: 2023-05-05 02:31:06.361070+00:00
+    user: 1
+    content_type: 6
+    object_id: '10'
+    object_repr: 'UWE Glenside campus: screen 1B: Batman v Superman'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie"]}}]'
+- model: admin.logentry
+  pk: 30
+  fields:
+    action_time: 2023-05-05 02:33:11.058213+00:00
+    user: 1
+    content_type: 4
+    object_id: '11'
+    object_repr: Fast and Furious 7
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 31
+  fields:
+    action_time: 2023-05-05 02:33:43.736856+00:00
+    user: 1
+    content_type: 6
+    object_id: '12'
+    object_repr: 'UWE Glenside campus: Screen1B: Fast and Furious 7'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie"]}}]'
+- model: admin.logentry
+  pk: 32
+  fields:
+    action_time: 2023-05-05 02:34:08.677117+00:00
+    user: 1
+    content_type: 6
+    object_id: '12'
+    object_repr: 'UWE Glenside campus: Screen1B: Fast and Furious 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 33
+  fields:
+    action_time: 2023-05-05 02:34:24.834712+00:00
+    user: 1
+    content_type: 6
+    object_id: '13'
+    object_repr: 'UWE Glenside campus: Screen2B: Fast and Furious 7'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 34
+  fields:
+    action_time: 2023-05-05 02:34:52.678355+00:00
+    user: 1
+    content_type: 4
+    object_id: '11'
+    object_repr: Fast and Furious 7
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 35
+  fields:
+    action_time: 2023-05-05 02:36:31.418315+00:00
+    user: 1
+    content_type: 4
+    object_id: '12'
+    object_repr: Inception
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 36
+  fields:
+    action_time: 2023-05-05 02:37:11.076484+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 37
+  fields:
+    action_time: 2023-05-05 02:37:11.090473+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: Top Gun
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 38
+  fields:
+    action_time: 2023-05-05 02:37:11.101114+00:00
+    user: 1
+    content_type: 4
+    object_id: '1'
+    object_repr: Start Trek
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 39
+  fields:
+    action_time: 2023-05-05 02:37:37.154011+00:00
+    user: 1
+    content_type: 6
+    object_id: '14'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: Inception'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 40
+  fields:
+    action_time: 2023-05-05 02:37:57.574119+00:00
+    user: 1
+    content_type: 4
+    object_id: '12'
+    object_repr: Inception
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 41
+  fields:
+    action_time: 2023-05-05 02:38:55.756293+00:00
+    user: 1
+    content_type: 4
+    object_id: '6'
+    object_repr: 'Avengers: Infinity War'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name"]}}]'
+- model: admin.logentry
+  pk: 42
+  fields:
+    action_time: 2023-05-05 02:39:11.183931+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: Interstellar
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Category", "Name"]}}]'
+- model: admin.logentry
+  pk: 43
+  fields:
+    action_time: 2023-05-05 02:39:40.608060+00:00
+    user: 1
+    content_type: 4
+    object_id: '4'
+    object_repr: The Green Mile
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 44
+  fields:
+    action_time: 2023-05-05 02:40:06.900767+00:00
+    user: 1
+    content_type: 6
+    object_id: '15'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: Avengers: Infinity War'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 45
+  fields:
+    action_time: 2023-05-05 17:33:52.264103+00:00
+    user: 1
+    content_type: 1
+    object_id: '6'
+    object_repr: janitor1
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 46
+  fields:
+    action_time: 2023-05-05 17:33:52.273709+00:00
+    user: 1
+    content_type: 1
+    object_id: '5'
+    object_repr: security1
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 47
+  fields:
+    action_time: 2023-05-05 17:36:09.318220+00:00
+    user: 1
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions", "Date joined"]}}]'
+- model: admin.logentry
+  pk: 48
+  fields:
+    action_time: 2023-05-05 17:53:18.121382+00:00
+    user: 2
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 49
+  fields:
+    action_time: 2023-05-05 17:53:44.368130+00:00
+    user: 2
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 50
+  fields:
+    action_time: 2023-05-05 17:58:06.329983+00:00
+    user: 1
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 51
+  fields:
+    action_time: 2023-05-05 17:59:43.874629+00:00
+    user: 2
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 52
+  fields:
+    action_time: 2023-05-05 18:01:09.485497+00:00
+    user: 2
+    content_type: 1
+    object_id: '9'
+    object_repr: student1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["password"]}}]'
+- model: admin.logentry
+  pk: 53
+  fields:
+    action_time: 2023-05-05 18:03:06.754497+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: student1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["First name", "Date of birth"]}}]'
+- model: admin.logentry
+  pk: 54
+  fields:
+    action_time: 2023-05-05 18:04:40.802765+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: student1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Phone", "Salary", "User permissions"]}}]'
+- model: admin.logentry
+  pk: 55
+  fields:
+    action_time: 2023-05-05 18:08:09.312790+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: Rafay
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Username", "User permissions"]}}]'
+- model: admin.logentry
+  pk: 56
+  fields:
+    action_time: 2023-05-05 18:11:36.850647+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: Rafay
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 57
+  fields:
+    action_time: 2023-05-05 18:49:03.701732+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: Rafay
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Salary", "Balance"]}}]'
+- model: admin.logentry
+  pk: 58
+  fields:
+    action_time: 2023-05-05 18:50:08.581826+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: Rafay
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Role"]}}]'
+- model: admin.logentry
+  pk: 59
+  fields:
+    action_time: 2023-05-05 18:50:16.309173+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: Rafay
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 60
+  fields:
+    action_time: 2023-05-05 18:51:17.598052+00:00
+    user: 9
+    content_type: 6
+    object_id: '14'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: Inception'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Type"]}}]'
+- model: admin.logentry
+  pk: 61
+  fields:
+    action_time: 2023-05-05 18:51:42.873121+00:00
+    user: 9
+    content_type: 7
+    object_id: '250'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 10: Rafay'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 62
+  fields:
+    action_time: 2023-05-05 18:52:19.229260+00:00
+    user: 9
+    content_type: 7
+    object_id: '260'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 63
+  fields:
+    action_time: 2023-05-05 18:52:19.252045+00:00
+    user: 9
+    content_type: 7
+    object_id: '259'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 64
+  fields:
+    action_time: 2023-05-05 18:52:19.264422+00:00
+    user: 9
+    content_type: 7
+    object_id: '258'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 65
+  fields:
+    action_time: 2023-05-05 18:52:19.270275+00:00
+    user: 9
+    content_type: 7
+    object_id: '257'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 66
+  fields:
+    action_time: 2023-05-05 18:52:19.279831+00:00
+    user: 9
+    content_type: 7
+    object_id: '256'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 67
+  fields:
+    action_time: 2023-05-05 18:52:19.290154+00:00
+    user: 9
+    content_type: 7
+    object_id: '255'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 68
+  fields:
+    action_time: 2023-05-05 18:52:19.299063+00:00
+    user: 9
+    content_type: 7
+    object_id: '254'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 69
+  fields:
+    action_time: 2023-05-05 18:52:19.309482+00:00
+    user: 9
+    content_type: 7
+    object_id: '253'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 70
+  fields:
+    action_time: 2023-05-05 18:52:19.318254+00:00
+    user: 9
+    content_type: 7
+    object_id: '252'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 71
+  fields:
+    action_time: 2023-05-05 18:52:19.327919+00:00
+    user: 9
+    content_type: 7
+    object_id: '251'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 72
+  fields:
+    action_time: 2023-05-05 18:52:19.332928+00:00
+    user: 9
+    content_type: 7
+    object_id: '250'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 10: Rafay'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 73
+  fields:
+    action_time: 2023-05-05 18:52:19.342524+00:00
+    user: 9
+    content_type: 7
+    object_id: '249'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 74
+  fields:
+    action_time: 2023-05-05 18:52:19.350280+00:00
+    user: 9
+    content_type: 7
+    object_id: '248'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 75
+  fields:
+    action_time: 2023-05-05 18:52:19.363334+00:00
+    user: 9
+    content_type: 7
+    object_id: '247'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 76
+  fields:
+    action_time: 2023-05-05 18:52:19.372161+00:00
+    user: 9
+    content_type: 7
+    object_id: '246'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 77
+  fields:
+    action_time: 2023-05-05 18:52:19.380142+00:00
+    user: 9
+    content_type: 7
+    object_id: '245'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 78
+  fields:
+    action_time: 2023-05-05 18:52:19.389516+00:00
+    user: 9
+    content_type: 7
+    object_id: '244'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 79
+  fields:
+    action_time: 2023-05-05 18:52:19.396886+00:00
+    user: 9
+    content_type: 7
+    object_id: '243'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 80
+  fields:
+    action_time: 2023-05-05 18:52:19.403805+00:00
+    user: 9
+    content_type: 7
+    object_id: '242'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 81
+  fields:
+    action_time: 2023-05-05 18:52:19.411900+00:00
+    user: 9
+    content_type: 7
+    object_id: '241'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 82
+  fields:
+    action_time: 2023-05-05 18:52:19.420331+00:00
+    user: 9
+    content_type: 7
+    object_id: '240'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 83
+  fields:
+    action_time: 2023-05-05 18:52:19.426879+00:00
+    user: 9
+    content_type: 7
+    object_id: '239'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 84
+  fields:
+    action_time: 2023-05-05 18:52:19.431295+00:00
+    user: 9
+    content_type: 7
+    object_id: '238'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 85
+  fields:
+    action_time: 2023-05-05 18:52:19.438599+00:00
+    user: 9
+    content_type: 7
+    object_id: '237'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 86
+  fields:
+    action_time: 2023-05-05 18:52:19.444706+00:00
+    user: 9
+    content_type: 7
+    object_id: '236'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 87
+  fields:
+    action_time: 2023-05-05 18:52:19.449760+00:00
+    user: 9
+    content_type: 7
+    object_id: '235'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 88
+  fields:
+    action_time: 2023-05-05 18:52:19.456614+00:00
+    user: 9
+    content_type: 7
+    object_id: '234'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 89
+  fields:
+    action_time: 2023-05-05 18:52:19.460911+00:00
+    user: 9
+    content_type: 7
+    object_id: '233'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 90
+  fields:
+    action_time: 2023-05-05 18:52:19.466470+00:00
+    user: 9
+    content_type: 7
+    object_id: '232'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 91
+  fields:
+    action_time: 2023-05-05 18:52:19.472676+00:00
+    user: 9
+    content_type: 7
+    object_id: '231'
+    object_repr: 'UWE Glenside campus: Screen2B: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 92
+  fields:
+    action_time: 2023-05-05 18:52:19.480034+00:00
+    user: 9
+    content_type: 7
+    object_id: '220'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 93
+  fields:
+    action_time: 2023-05-05 18:52:19.485324+00:00
+    user: 9
+    content_type: 7
+    object_id: '219'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 94
+  fields:
+    action_time: 2023-05-05 18:52:19.492128+00:00
+    user: 9
+    content_type: 7
+    object_id: '218'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 95
+  fields:
+    action_time: 2023-05-05 18:52:19.497660+00:00
+    user: 9
+    content_type: 7
+    object_id: '217'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 96
+  fields:
+    action_time: 2023-05-05 18:52:19.503772+00:00
+    user: 9
+    content_type: 7
+    object_id: '216'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 97
+  fields:
+    action_time: 2023-05-05 18:52:19.513021+00:00
+    user: 9
+    content_type: 7
+    object_id: '215'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 98
+  fields:
+    action_time: 2023-05-05 18:52:19.519209+00:00
+    user: 9
+    content_type: 7
+    object_id: '214'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 99
+  fields:
+    action_time: 2023-05-05 18:52:19.526201+00:00
+    user: 9
+    content_type: 7
+    object_id: '213'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 100
+  fields:
+    action_time: 2023-05-05 18:52:19.530793+00:00
+    user: 9
+    content_type: 7
+    object_id: '212'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 101
+  fields:
+    action_time: 2023-05-05 18:52:19.536679+00:00
+    user: 9
+    content_type: 7
+    object_id: '211'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 102
+  fields:
+    action_time: 2023-05-05 18:52:19.541739+00:00
+    user: 9
+    content_type: 7
+    object_id: '210'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 103
+  fields:
+    action_time: 2023-05-05 18:52:19.547288+00:00
+    user: 9
+    content_type: 7
+    object_id: '209'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 104
+  fields:
+    action_time: 2023-05-05 18:52:19.553122+00:00
+    user: 9
+    content_type: 7
+    object_id: '208'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 105
+  fields:
+    action_time: 2023-05-05 18:52:19.560088+00:00
+    user: 9
+    content_type: 7
+    object_id: '207'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 106
+  fields:
+    action_time: 2023-05-05 18:52:19.565634+00:00
+    user: 9
+    content_type: 7
+    object_id: '206'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 107
+  fields:
+    action_time: 2023-05-05 18:52:19.571013+00:00
+    user: 9
+    content_type: 7
+    object_id: '205'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 108
+  fields:
+    action_time: 2023-05-05 18:52:19.577396+00:00
+    user: 9
+    content_type: 7
+    object_id: '204'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 109
+  fields:
+    action_time: 2023-05-05 18:52:19.583973+00:00
+    user: 9
+    content_type: 7
+    object_id: '203'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 110
+  fields:
+    action_time: 2023-05-05 18:52:19.590293+00:00
+    user: 9
+    content_type: 7
+    object_id: '202'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 111
+  fields:
+    action_time: 2023-05-05 18:52:19.596962+00:00
+    user: 9
+    content_type: 7
+    object_id: '201'
+    object_repr: 'UWE Glenside campus: screen 1B: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 112
+  fields:
+    action_time: 2023-05-05 18:52:19.605549+00:00
+    user: 9
+    content_type: 7
+    object_id: '200'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 113
+  fields:
+    action_time: 2023-05-05 18:52:19.613153+00:00
+    user: 9
+    content_type: 7
+    object_id: '199'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 114
+  fields:
+    action_time: 2023-05-05 18:52:19.623264+00:00
+    user: 9
+    content_type: 7
+    object_id: '198'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 115
+  fields:
+    action_time: 2023-05-05 18:52:19.631232+00:00
+    user: 9
+    content_type: 7
+    object_id: '197'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 116
+  fields:
+    action_time: 2023-05-05 18:52:19.638803+00:00
+    user: 9
+    content_type: 7
+    object_id: '196'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 117
+  fields:
+    action_time: 2023-05-05 18:52:19.645362+00:00
+    user: 9
+    content_type: 7
+    object_id: '195'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 118
+  fields:
+    action_time: 2023-05-05 18:52:19.651084+00:00
+    user: 9
+    content_type: 7
+    object_id: '194'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 119
+  fields:
+    action_time: 2023-05-05 18:52:19.659650+00:00
+    user: 9
+    content_type: 7
+    object_id: '193'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 120
+  fields:
+    action_time: 2023-05-05 18:52:19.665141+00:00
+    user: 9
+    content_type: 7
+    object_id: '192'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 121
+  fields:
+    action_time: 2023-05-05 18:52:19.670990+00:00
+    user: 9
+    content_type: 7
+    object_id: '191'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 122
+  fields:
+    action_time: 2023-05-05 18:52:19.677382+00:00
+    user: 9
+    content_type: 7
+    object_id: '190'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 123
+  fields:
+    action_time: 2023-05-05 18:52:19.682367+00:00
+    user: 9
+    content_type: 7
+    object_id: '189'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 124
+  fields:
+    action_time: 2023-05-05 18:52:19.689107+00:00
+    user: 9
+    content_type: 7
+    object_id: '188'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 125
+  fields:
+    action_time: 2023-05-05 18:52:19.694717+00:00
+    user: 9
+    content_type: 7
+    object_id: '187'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 126
+  fields:
+    action_time: 2023-05-05 18:52:19.700356+00:00
+    user: 9
+    content_type: 7
+    object_id: '186'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 127
+  fields:
+    action_time: 2023-05-05 18:52:19.707735+00:00
+    user: 9
+    content_type: 7
+    object_id: '185'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 128
+  fields:
+    action_time: 2023-05-05 18:52:19.713626+00:00
+    user: 9
+    content_type: 7
+    object_id: '184'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 129
+  fields:
+    action_time: 2023-05-05 18:52:19.721450+00:00
+    user: 9
+    content_type: 7
+    object_id: '183'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 130
+  fields:
+    action_time: 2023-05-05 18:52:19.727933+00:00
+    user: 9
+    content_type: 7
+    object_id: '182'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 131
+  fields:
+    action_time: 2023-05-05 18:52:19.733161+00:00
+    user: 9
+    content_type: 7
+    object_id: '181'
+    object_repr: 'UWE Frenchay Campus: screen 2: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 132
+  fields:
+    action_time: 2023-05-05 18:52:19.739960+00:00
+    user: 9
+    content_type: 7
+    object_id: '180'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 133
+  fields:
+    action_time: 2023-05-05 18:52:19.746700+00:00
+    user: 9
+    content_type: 7
+    object_id: '179'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 134
+  fields:
+    action_time: 2023-05-05 18:52:19.751109+00:00
+    user: 9
+    content_type: 7
+    object_id: '178'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 135
+  fields:
+    action_time: 2023-05-05 18:52:19.757303+00:00
+    user: 9
+    content_type: 7
+    object_id: '177'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 136
+  fields:
+    action_time: 2023-05-05 18:52:19.762148+00:00
+    user: 9
+    content_type: 7
+    object_id: '176'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 137
+  fields:
+    action_time: 2023-05-05 18:52:19.767752+00:00
+    user: 9
+    content_type: 7
+    object_id: '175'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 138
+  fields:
+    action_time: 2023-05-05 18:52:19.775183+00:00
+    user: 9
+    content_type: 7
+    object_id: '174'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 139
+  fields:
+    action_time: 2023-05-05 18:52:19.783706+00:00
+    user: 9
+    content_type: 7
+    object_id: '173'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 140
+  fields:
+    action_time: 2023-05-05 18:52:19.791159+00:00
+    user: 9
+    content_type: 7
+    object_id: '172'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 141
+  fields:
+    action_time: 2023-05-05 18:52:19.802483+00:00
+    user: 9
+    content_type: 7
+    object_id: '171'
+    object_repr: 'UWE Frenchay Campus: Screen 1: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 142
+  fields:
+    action_time: 2023-05-05 18:52:19.812012+00:00
+    user: 9
+    content_type: 7
+    object_id: '167'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 27'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 143
+  fields:
+    action_time: 2023-05-05 18:52:19.818076+00:00
+    user: 9
+    content_type: 7
+    object_id: '166'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 26'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 144
+  fields:
+    action_time: 2023-05-05 18:52:19.824031+00:00
+    user: 9
+    content_type: 7
+    object_id: '165'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 25'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 145
+  fields:
+    action_time: 2023-05-05 18:52:19.830436+00:00
+    user: 9
+    content_type: 7
+    object_id: '164'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 24'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 146
+  fields:
+    action_time: 2023-05-05 18:52:19.836553+00:00
+    user: 9
+    content_type: 7
+    object_id: '163'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 23'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 147
+  fields:
+    action_time: 2023-05-05 18:52:19.841834+00:00
+    user: 9
+    content_type: 7
+    object_id: '162'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 22'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 148
+  fields:
+    action_time: 2023-05-05 18:52:19.847538+00:00
+    user: 9
+    content_type: 7
+    object_id: '161'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 21'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 149
+  fields:
+    action_time: 2023-05-05 18:52:19.852669+00:00
+    user: 9
+    content_type: 7
+    object_id: '160'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 20'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 150
+  fields:
+    action_time: 2023-05-05 18:52:19.858293+00:00
+    user: 9
+    content_type: 7
+    object_id: '159'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 19'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 151
+  fields:
+    action_time: 2023-05-05 18:52:19.865076+00:00
+    user: 9
+    content_type: 7
+    object_id: '158'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 18'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 152
+  fields:
+    action_time: 2023-05-05 18:52:19.869546+00:00
+    user: 9
+    content_type: 7
+    object_id: '157'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 17'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 153
+  fields:
+    action_time: 2023-05-05 18:52:19.874953+00:00
+    user: 9
+    content_type: 7
+    object_id: '156'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 16'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 154
+  fields:
+    action_time: 2023-05-05 18:52:19.879139+00:00
+    user: 9
+    content_type: 7
+    object_id: '155'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 15'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 155
+  fields:
+    action_time: 2023-05-05 18:52:19.885169+00:00
+    user: 9
+    content_type: 7
+    object_id: '154'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 14'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 156
+  fields:
+    action_time: 2023-05-05 18:52:19.890406+00:00
+    user: 9
+    content_type: 7
+    object_id: '153'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 13'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 157
+  fields:
+    action_time: 2023-05-05 18:52:19.896360+00:00
+    user: 9
+    content_type: 7
+    object_id: '152'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 12'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 158
+  fields:
+    action_time: 2023-05-05 18:52:19.901549+00:00
+    user: 9
+    content_type: 7
+    object_id: '151'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 11'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 159
+  fields:
+    action_time: 2023-05-05 18:52:19.915102+00:00
+    user: 9
+    content_type: 7
+    object_id: '150'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 160
+  fields:
+    action_time: 2023-05-05 18:52:19.921505+00:00
+    user: 9
+    content_type: 7
+    object_id: '149'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 161
+  fields:
+    action_time: 2023-05-05 18:52:19.928182+00:00
+    user: 9
+    content_type: 7
+    object_id: '148'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 162
+  fields:
+    action_time: 2023-05-05 18:52:42.775745+00:00
+    user: 9
+    content_type: 7
+    object_id: '147'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 163
+  fields:
+    action_time: 2023-05-05 18:52:42.789152+00:00
+    user: 9
+    content_type: 7
+    object_id: '146'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 164
+  fields:
+    action_time: 2023-05-05 18:52:42.794757+00:00
+    user: 9
+    content_type: 7
+    object_id: '145'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 165
+  fields:
+    action_time: 2023-05-05 18:52:42.800432+00:00
+    user: 9
+    content_type: 7
+    object_id: '144'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 166
+  fields:
+    action_time: 2023-05-05 18:52:42.806626+00:00
+    user: 9
+    content_type: 7
+    object_id: '143'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 167
+  fields:
+    action_time: 2023-05-05 18:52:42.811070+00:00
+    user: 9
+    content_type: 7
+    object_id: '142'
+    object_repr: 'UWE Glenside campus: VIP 1: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 168
+  fields:
+    action_time: 2023-05-05 18:52:42.816827+00:00
+    user: 9
+    content_type: 7
+    object_id: '140'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 15'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 169
+  fields:
+    action_time: 2023-05-05 18:52:42.821615+00:00
+    user: 9
+    content_type: 7
+    object_id: '139'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 14'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 170
+  fields:
+    action_time: 2023-05-05 18:52:42.827521+00:00
+    user: 9
+    content_type: 7
+    object_id: '138'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 13'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 171
+  fields:
+    action_time: 2023-05-05 18:52:42.832769+00:00
+    user: 9
+    content_type: 7
+    object_id: '137'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 12'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 172
+  fields:
+    action_time: 2023-05-05 18:52:42.838383+00:00
+    user: 9
+    content_type: 7
+    object_id: '136'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 11'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 173
+  fields:
+    action_time: 2023-05-05 18:52:42.845506+00:00
+    user: 9
+    content_type: 7
+    object_id: '135'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 174
+  fields:
+    action_time: 2023-05-05 18:52:42.849865+00:00
+    user: 9
+    content_type: 7
+    object_id: '134'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 175
+  fields:
+    action_time: 2023-05-05 18:52:42.855999+00:00
+    user: 9
+    content_type: 7
+    object_id: '133'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 176
+  fields:
+    action_time: 2023-05-05 18:52:42.860818+00:00
+    user: 9
+    content_type: 7
+    object_id: '132'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 177
+  fields:
+    action_time: 2023-05-05 18:52:42.866430+00:00
+    user: 9
+    content_type: 7
+    object_id: '131'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 178
+  fields:
+    action_time: 2023-05-05 18:52:42.871425+00:00
+    user: 9
+    content_type: 7
+    object_id: '130'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 179
+  fields:
+    action_time: 2023-05-05 18:52:42.876375+00:00
+    user: 9
+    content_type: 7
+    object_id: '129'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 180
+  fields:
+    action_time: 2023-05-05 18:52:42.882920+00:00
+    user: 9
+    content_type: 7
+    object_id: '128'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 181
+  fields:
+    action_time: 2023-05-05 18:52:42.889196+00:00
+    user: 9
+    content_type: 7
+    object_id: '127'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 182
+  fields:
+    action_time: 2023-05-05 18:52:42.894847+00:00
+    user: 9
+    content_type: 7
+    object_id: '126'
+    object_repr: 'UWE Frenchay Campus: Public 2: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 183
+  fields:
+    action_time: 2023-05-05 18:52:42.900636+00:00
+    user: 9
+    content_type: 7
+    object_id: '125'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 184
+  fields:
+    action_time: 2023-05-05 18:52:42.907090+00:00
+    user: 9
+    content_type: 7
+    object_id: '124'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 185
+  fields:
+    action_time: 2023-05-05 18:52:42.911365+00:00
+    user: 9
+    content_type: 7
+    object_id: '123'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 186
+  fields:
+    action_time: 2023-05-05 18:52:42.917317+00:00
+    user: 9
+    content_type: 7
+    object_id: '122'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 187
+  fields:
+    action_time: 2023-05-05 18:52:42.922368+00:00
+    user: 9
+    content_type: 7
+    object_id: '121'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 188
+  fields:
+    action_time: 2023-05-05 18:52:42.928170+00:00
+    user: 9
+    content_type: 7
+    object_id: '120'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 189
+  fields:
+    action_time: 2023-05-05 18:52:42.934190+00:00
+    user: 9
+    content_type: 7
+    object_id: '119'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 190
+  fields:
+    action_time: 2023-05-05 18:52:42.940390+00:00
+    user: 9
+    content_type: 7
+    object_id: '118'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 191
+  fields:
+    action_time: 2023-05-05 18:52:42.945900+00:00
+    user: 9
+    content_type: 7
+    object_id: '117'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 192
+  fields:
+    action_time: 2023-05-05 18:52:42.951976+00:00
+    user: 9
+    content_type: 7
+    object_id: '116'
+    object_repr: 'UWE Frenchay Campus: Public 1: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 193
+  fields:
+    action_time: 2023-05-05 18:52:42.958086+00:00
+    user: 9
+    content_type: 7
+    object_id: '30'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 20'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 194
+  fields:
+    action_time: 2023-05-05 18:52:42.967733+00:00
+    user: 9
+    content_type: 7
+    object_id: '29'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 19'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 195
+  fields:
+    action_time: 2023-05-05 18:52:42.976845+00:00
+    user: 9
+    content_type: 7
+    object_id: '28'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 18'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 196
+  fields:
+    action_time: 2023-05-05 18:52:42.984613+00:00
+    user: 9
+    content_type: 7
+    object_id: '27'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 17'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 197
+  fields:
+    action_time: 2023-05-05 18:52:42.991738+00:00
+    user: 9
+    content_type: 7
+    object_id: '26'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 16'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 198
+  fields:
+    action_time: 2023-05-05 18:52:42.998401+00:00
+    user: 9
+    content_type: 7
+    object_id: '25'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 15'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 199
+  fields:
+    action_time: 2023-05-05 18:52:43.004793+00:00
+    user: 9
+    content_type: 7
+    object_id: '24'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 14'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 200
+  fields:
+    action_time: 2023-05-05 18:52:43.008968+00:00
+    user: 9
+    content_type: 7
+    object_id: '23'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 13'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 201
+  fields:
+    action_time: 2023-05-05 18:52:43.015140+00:00
+    user: 9
+    content_type: 7
+    object_id: '22'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 12'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 202
+  fields:
+    action_time: 2023-05-05 18:52:43.019762+00:00
+    user: 9
+    content_type: 7
+    object_id: '21'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 11'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 203
+  fields:
+    action_time: 2023-05-05 18:52:43.025183+00:00
+    user: 9
+    content_type: 7
+    object_id: '20'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 204
+  fields:
+    action_time: 2023-05-05 18:52:43.029414+00:00
+    user: 9
+    content_type: 7
+    object_id: '19'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 205
+  fields:
+    action_time: 2023-05-05 18:52:43.035052+00:00
+    user: 9
+    content_type: 7
+    object_id: '18'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 206
+  fields:
+    action_time: 2023-05-05 18:52:43.039278+00:00
+    user: 9
+    content_type: 7
+    object_id: '17'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 207
+  fields:
+    action_time: 2023-05-05 18:52:43.044937+00:00
+    user: 9
+    content_type: 7
+    object_id: '16'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 208
+  fields:
+    action_time: 2023-05-05 18:52:43.050291+00:00
+    user: 9
+    content_type: 7
+    object_id: '15'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 209
+  fields:
+    action_time: 2023-05-05 18:52:43.055625+00:00
+    user: 9
+    content_type: 7
+    object_id: '14'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 210
+  fields:
+    action_time: 2023-05-05 18:52:43.059850+00:00
+    user: 9
+    content_type: 7
+    object_id: '13'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 211
+  fields:
+    action_time: 2023-05-05 18:52:43.065926+00:00
+    user: 9
+    content_type: 7
+    object_id: '12'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 212
+  fields:
+    action_time: 2023-05-05 18:52:43.070627+00:00
+    user: 9
+    content_type: 7
+    object_id: '11'
+    object_repr: 'UWE Frenchay Campus: VIP 2: seat number 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 213
+  fields:
+    action_time: 2023-05-05 18:52:43.076306+00:00
+    user: 9
+    content_type: 7
+    object_id: '10'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 10'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 214
+  fields:
+    action_time: 2023-05-05 18:52:43.104039+00:00
+    user: 9
+    content_type: 7
+    object_id: '9'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 9'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 215
+  fields:
+    action_time: 2023-05-05 18:52:43.111888+00:00
+    user: 9
+    content_type: 7
+    object_id: '8'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 8'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 216
+  fields:
+    action_time: 2023-05-05 18:52:43.128058+00:00
+    user: 9
+    content_type: 7
+    object_id: '7'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 217
+  fields:
+    action_time: 2023-05-05 18:52:43.143150+00:00
+    user: 9
+    content_type: 7
+    object_id: '6'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 6'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 218
+  fields:
+    action_time: 2023-05-05 18:52:43.154767+00:00
+    user: 9
+    content_type: 7
+    object_id: '5'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 5'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 219
+  fields:
+    action_time: 2023-05-05 18:52:43.164124+00:00
+    user: 9
+    content_type: 7
+    object_id: '4'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 4'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 220
+  fields:
+    action_time: 2023-05-05 18:52:43.177555+00:00
+    user: 9
+    content_type: 7
+    object_id: '3'
+    object_repr: 'UWE Frenchay Campus: VIP 1: seat number 3'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 221
+  fields:
+    action_time: 2023-05-05 18:53:08.921570+00:00
+    user: 9
+    content_type: 6
+    object_id: '15'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: Avengers: Infinity War'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 222
+  fields:
+    action_time: 2023-05-05 18:53:08.931296+00:00
+    user: 9
+    content_type: 6
+    object_id: '14'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: Inception'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 223
+  fields:
+    action_time: 2023-05-05 18:53:08.941097+00:00
+    user: 9
+    content_type: 6
+    object_id: '13'
+    object_repr: 'UWE Glenside campus: Screen2B: Fast and Furious 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 224
+  fields:
+    action_time: 2023-05-05 18:53:08.948144+00:00
+    user: 9
+    content_type: 6
+    object_id: '11'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: Avengers: Endgame'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 225
+  fields:
+    action_time: 2023-05-05 18:53:08.955445+00:00
+    user: 9
+    content_type: 6
+    object_id: '10'
+    object_repr: 'UWE Glenside campus: screen 1B: Batman v Superman'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 226
+  fields:
+    action_time: 2023-05-05 18:53:08.960674+00:00
+    user: 9
+    content_type: 6
+    object_id: '9'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: Batman v Superman'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 227
+  fields:
+    action_time: 2023-05-05 18:53:08.966940+00:00
+    user: 9
+    content_type: 6
+    object_id: '8'
+    object_repr: 'UWE Frenchay Campus: screen 2: Interstellar'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 228
+  fields:
+    action_time: 2023-05-05 18:53:08.971883+00:00
+    user: 9
+    content_type: 6
+    object_id: '7'
+    object_repr: 'UWE Frenchay Campus: Screen 1: Avengers: Infinity War'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 229
+  fields:
+    action_time: 2023-05-05 18:53:08.977757+00:00
+    user: 9
+    content_type: 6
+    object_id: '6'
+    object_repr: 'UWE Glenside campus: VIP 1: Avengers: Infinity War'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 230
+  fields:
+    action_time: 2023-05-05 18:53:08.986396+00:00
+    user: 9
+    content_type: 6
+    object_id: '5'
+    object_repr: 'UWE Frenchay Campus: Public 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 231
+  fields:
+    action_time: 2023-05-05 18:53:08.991137+00:00
+    user: 9
+    content_type: 6
+    object_id: '4'
+    object_repr: 'UWE Frenchay Campus: Public 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 232
+  fields:
+    action_time: 2023-05-05 18:53:08.997774+00:00
+    user: 9
+    content_type: 6
+    object_id: '3'
+    object_repr: 'UWE Frenchay Campus: Inactive'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 233
+  fields:
+    action_time: 2023-05-05 18:53:09.006841+00:00
+    user: 9
+    content_type: 6
+    object_id: '2'
+    object_repr: 'UWE Frenchay Campus: VIP 2'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 234
+  fields:
+    action_time: 2023-05-05 18:53:09.013136+00:00
+    user: 9
+    content_type: 6
+    object_id: '1'
+    object_repr: 'UWE Frenchay Campus: VIP 1'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 235
+  fields:
+    action_time: 2023-05-05 18:54:23.469061+00:00
+    user: 9
+    content_type: 6
+    object_id: '16'
+    object_repr: 'UWE Frenchay Campus: Screen F1: Avengers: Infinity War'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 236
+  fields:
+    action_time: 2023-05-05 18:54:56.806657+00:00
+    user: 9
+    content_type: 6
+    object_id: '17'
+    object_repr: 'UWE Frenchay Campus: Screen F2: Avengers: Infinity War'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 237
+  fields:
+    action_time: 2023-05-05 18:55:44.504708+00:00
+    user: 9
+    content_type: 6
+    object_id: '17'
+    object_repr: 'UWE Frenchay Campus: Screen F2: Interstellar'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie", "Type"]}}]'
+- model: admin.logentry
+  pk: 238
+  fields:
+    action_time: 2023-05-05 18:56:21.415131+00:00
+    user: 9
+    content_type: 6
+    object_id: '18'
+    object_repr: 'UWE Frenchay Campus: Screen F3: Batman v Superman'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 239
+  fields:
+    action_time: 2023-05-05 18:56:59.178420+00:00
+    user: 9
+    content_type: 6
+    object_id: '19'
+    object_repr: 'UWE Glenside campus: Screen G1: Avengers: Infinity War'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 240
+  fields:
+    action_time: 2023-05-05 18:57:22.158140+00:00
+    user: 9
+    content_type: 6
+    object_id: '20'
+    object_repr: 'UWE Glenside campus: Screen G2: Fast and Furious 7'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 241
+  fields:
+    action_time: 2023-05-05 18:58:05.668086+00:00
+    user: 9
+    content_type: 6
+    object_id: '21'
+    object_repr: 'UWE Glenside campus: Screen 3: Batman v Superman'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 242
+  fields:
+    action_time: 2023-05-05 18:58:55.721095+00:00
+    user: 9
+    content_type: 6
+    object_id: '21'
+    object_repr: 'UWE Glenside campus: Screen 3: Batman v Superman'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 243
+  fields:
+    action_time: 2023-05-05 18:59:18.442265+00:00
+    user: 9
+    content_type: 6
+    object_id: '22'
+    object_repr: 'UWE Glenside campus: Screen 3: Inception'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 244
+  fields:
+    action_time: 2023-05-05 18:59:45.194857+00:00
+    user: 9
+    content_type: 6
+    object_id: '23'
+    object_repr: 'UWE Bower Ashton city campus: Screen B1: Avengers: Endgame'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 245
+  fields:
+    action_time: 2023-05-05 19:00:08.446644+00:00
+    user: 9
+    content_type: 6
+    object_id: '24'
+    object_repr: 'UWE Bower Ashton city campus: Screen B2: Inception'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 246
+  fields:
+    action_time: 2023-05-05 19:01:45.667596+00:00
+    user: 9
+    content_type: 6
+    object_id: '25'
+    object_repr: 'UWE Frenchay Campus: Screen F4: Avengers: Endgame'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 247
+  fields:
+    action_time: 2023-05-05 19:02:33.751499+00:00
+    user: 9
+    content_type: 6
+    object_id: '26'
+    object_repr: 'UWE Frenchay Campus: Screen f5: Inception'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 248
+  fields:
+    action_time: 2023-05-05 19:03:48.615984+00:00
+    user: 9
+    content_type: 7
+    object_id: '381'
+    object_repr: 'UWE Frenchay Campus: Screen f5: seat number 9: Rafay'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 249
+  fields:
+    action_time: 2023-05-05 19:04:29.603592+00:00
+    user: 9
+    content_type: 7
+    object_id: '372'
+    object_repr: 'UWE Frenchay Campus: Screen F4: seat number 20: Rafay'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 250
+  fields:
+    action_time: 2023-05-05 19:44:19.378596+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 251
+  fields:
+    action_time: 2023-05-05 19:46:11.914539+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions", "Last login"]}}]'
+- model: admin.logentry
+  pk: 252
+  fields:
+    action_time: 2023-05-05 19:47:15.554539+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Last login", "Date joined"]}}]'
+- model: admin.logentry
+  pk: 253
+  fields:
+    action_time: 2023-05-05 19:48:23.804201+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["First name", "User permissions"]}}]'
+- model: admin.logentry
+  pk: 254
+  fields:
+    action_time: 2023-05-05 19:49:23.083208+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 255
+  fields:
+    action_time: 2023-05-05 19:49:54.830528+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Last login"]}}]'
+- model: admin.logentry
+  pk: 256
+  fields:
+    action_time: 2023-05-05 19:52:39.030513+00:00
+    user: 1
+    content_type: 1
+    object_id: '11'
+    object_repr: Adult_user
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Staff status"]}}]'
+- model: admin.logentry
+  pk: 257
+  fields:
+    action_time: 2023-05-05 19:53:47.581653+00:00
+    user: 11
+    content_type: 7
+    object_id: '382'
+    object_repr: 'UWE Frenchay Campus: Screen f5: seat number 10: Adult_user'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 258
+  fields:
+    action_time: 2023-05-05 19:54:46.458408+00:00
+    user: 11
+    content_type: 7
+    object_id: '382'
+    object_repr: 'UWE Frenchay Campus: Screen f5: seat number 10: Adult_user'
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 259
+  fields:
+    action_time: 2023-05-05 19:55:21.736072+00:00
+    user: 11
+    content_type: 7
+    object_id: '382'
+    object_repr: 'UWE Frenchay Campus: Screen f5: seat number 10'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 260
+  fields:
+    action_time: 2023-05-05 20:27:22.211806+00:00
+    user: 11
+    content_type: 7
+    object_id: '362'
+    object_repr: 'UWE Frenchay Campus: Screen F4: seat number 10: Adult_user'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 261
+  fields:
+    action_time: 2023-05-05 20:28:13.536143+00:00
+    user: 11
+    content_type: 7
+    object_id: '362'
+    object_repr: 'UWE Frenchay Campus: Screen F4: seat number 10'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Customer"]}}]'
+- model: admin.logentry
+  pk: 262
+  fields:
+    action_time: 2023-05-05 20:36:50.985222+00:00
+    user: 1
+    content_type: 1
+    object_id: '9'
+    object_repr: Rafay
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Role"]}}]'
+- model: admin.logentry
+  pk: 263
+  fields:
+    action_time: 2023-05-05 20:42:27.078702+00:00
+    user: 1
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 264
+  fields:
+    action_time: 2023-05-05 20:42:38.620150+00:00
+    user: 1
+    content_type: 1
+    object_id: '3'
+    object_repr: club_manager1
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 265
+  fields:
+    action_time: 2023-05-05 20:42:50.485676+00:00
+    user: 1
+    content_type: 1
+    object_id: '3'
+    object_repr: club_manager1
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 266
+  fields:
+    action_time: 2023-05-05 20:56:41.350512+00:00
+    user: 1
+    content_type: 1
+    object_id: '3'
+    object_repr: club_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Club name"]}}]'
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add user
+    content_type: 1
+    codename: add_user
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change user
+    content_type: 1
+    codename: change_user
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete user
+    content_type: 1
+    codename: delete_user
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view user
+    content_type: 1
+    codename: view_user
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add category
+    content_type: 2
+    codename: add_category
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change category
+    content_type: 2
+    codename: change_category
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete category
+    content_type: 2
+    codename: delete_category
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view category
+    content_type: 2
+    codename: view_category
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add customer
+    content_type: 3
+    codename: add_customer
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change customer
+    content_type: 3
+    codename: change_customer
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete customer
+    content_type: 3
+    codename: delete_customer
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view customer
+    content_type: 3
+    codename: view_customer
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add movie
+    content_type: 4
+    codename: add_movie
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change movie
+    content_type: 4
+    codename: change_movie
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete movie
+    content_type: 4
+    codename: delete_movie
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view movie
+    content_type: 4
+    codename: view_movie
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add theater
+    content_type: 5
+    codename: add_theater
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change theater
+    content_type: 5
+    codename: change_theater
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete theater
+    content_type: 5
+    codename: delete_theater
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view theater
+    content_type: 5
+    codename: view_theater
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add screen
+    content_type: 6
+    codename: add_screen
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change screen
+    content_type: 6
+    codename: change_screen
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete screen
+    content_type: 6
+    codename: delete_screen
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view screen
+    content_type: 6
+    codename: view_screen
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add ticket
+    content_type: 7
+    codename: add_ticket
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change ticket
+    content_type: 7
+    codename: change_ticket
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete ticket
+    content_type: 7
+    codename: delete_ticket
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view ticket
+    content_type: 7
+    codename: view_ticket
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add log entry
+    content_type: 8
+    codename: add_logentry
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change log entry
+    content_type: 8
+    codename: change_logentry
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete log entry
+    content_type: 8
+    codename: delete_logentry
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view log entry
+    content_type: 8
+    codename: view_logentry
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add permission
+    content_type: 9
+    codename: add_permission
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change permission
+    content_type: 9
+    codename: change_permission
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete permission
+    content_type: 9
+    codename: delete_permission
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view permission
+    content_type: 9
+    codename: view_permission
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add group
+    content_type: 10
+    codename: add_group
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change group
+    content_type: 10
+    codename: change_group
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete group
+    content_type: 10
+    codename: delete_group
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view group
+    content_type: 10
+    codename: view_group
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add content type
+    content_type: 11
+    codename: add_contenttype
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change content type
+    content_type: 11
+    codename: change_contenttype
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete content type
+    content_type: 11
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view content type
+    content_type: 11
+    codename: view_contenttype
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add session
+    content_type: 12
+    codename: add_session
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change session
+    content_type: 12
+    codename: change_session
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete session
+    content_type: 12
+    codename: delete_session
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view session
+    content_type: 12
+    codename: view_session
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can buy ticket
+    content_type: 7
+    codename: buy_ticket
+- model: auth.group
+  pk: 1
+  fields:
+    name: Cinema Manager
+    is_active: true
+    permissions:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 4
+- model: auth.group
+  pk: 2
+  fields:
+    name: Club Manager
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: auth.group
+  pk: 3
+  fields:
+    name: Student
+    is_active: true
+    permissions: []
+- model: auth.group
+  pk: 4
+  fields:
+    name: Customer
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: cinema
+    model: user
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: cinema
+    model: category
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: cinema
+    model: customer
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: cinema
+    model: movie
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: cinema
+    model: theater
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: cinema
+    model: screen
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: cinema
+    model: ticket
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: sessions
+    model: session
+- model: sessions.session
+  pk: t04szexmn1e7snljc3h3lktj2fj8w1uz
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hBokTIu3fcMZJiZStVAUtqV8e7apAvd_vfef6mI25rj1mSJM6uLsur0uyWkh5Qd8B3LrWqqZV3mpHdFH7TpsbI8r4f7d5Cx5W_tORnjXJKB0MgZA6MXkC4F2zuBDhM4SyCmJ7JiQJgm8AaC9c4OblLvD_zgODE:1pudtM:Lr-W55kaNS8mQ7DBGuY00vNWlcnAzfIxdL88JKBkwp4
+    expire_date: 2023-05-18 18:41:24.747654+00:00
+- model: sessions.session
+  pk: y5y6ea1svjarbfbd9lbx16i0plpt5o3l
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hBokTIu3fcMZJiZStVAUtqV8e7apAvd_vfef6mI25rj1mSJM6uLsur0uyWkh5Qd8B3LrWqqZV3mpHdFH7TpsbI8r4f7d5Cx5W_tORnjXJKB0MgZA6MXkC4F2zuBDhM4SyCmJ7JiQJgm8AaC9c4OblLvD_zgODE:1pv2Fp:BrU3PRmrfpX3xvDzCoDabZZU3wk-457SeY5QGgCc8-k
+    expire_date: 2023-05-19 20:42:13.613503+00:00

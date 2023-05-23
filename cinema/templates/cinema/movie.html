@@ -1,0 +1,62 @@
+{% extends "cinema/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+
+<!-- ======= Movie Section ======= -->
+<section class="movie mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-4 mb-4">
+        {% if movie.image %}
+        <img class="card-img-top" src="{{ movie.image }}" alt="{{ movie.name }}">
+        {% else %}
+        <img class="card-img-top opacity-75" src="{% static 'img/movie-placeholder.png' %}" alt="{{ movie.name }}">
+        {% endif %}
+      </div>
+
+      <div class="col-12 col-md-8 mb-4">
+        <p class="text-white-50">{{ movie.category.name }}</p>
+        <hr>
+        <h1 class="mb-4">{{ movie.name }}</h1>
+        <p>{{ movie.description }}</p>
+        <br>
+        <h5>Details</h5>
+        <hr>
+        <p>
+          Release Date: <span class="text-white-50">{{ movie.release_date }}</span><br>
+          Length: <span class="text-white-50">{{ movie.duration }}</span><br>
+          Age rating: <span class="text-white-50">{{ movie.age_rating }}</span><br>
+        </p>
+        <br>
+        <h5>Running</h5>
+        <hr>
+        {% for screen in movie.screens %}
+        <table class="table table-dark text-white">
+          <thead>
+            <tr>
+              <th scope="col" style="width:20%" class="font-weight-normal">Theater</th>
+              <th scope="col" style="width:15%" class="font-weight-normal">Screen</th>
+              <th scope="col" style="width:15%" class="font-weight-normal">Seats</th>
+              <th scope="col" style="width:25%" class="font-weight-normal">Available from</th>
+              <th scope="col" style="width:25%" class="font-weight-normal">Available until</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="small">{{ screen.theater.name }}<br>{{ screen.theater.location }}</td>
+              <td class="small">{{ screen.name }}</td>
+              <td class="small">{{ screen.total_seats_available }} / {{ screen.total_seats }}</td>
+              <td class="small">{{ screen.movie.starts_at }}</td>
+              <td class="small">{{ screen.movie.ends_at }}</td>
+            </tr>
+          </tbody>
+        </table>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section><!-- End Movie Section -->
+
+{% endblock %}
