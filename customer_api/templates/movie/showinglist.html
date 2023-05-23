@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Showings for {{ date }}{% endblock %}
+
+{% block content %}
+    {{ showing_list.result_show}}
+    <h1>Showings for {{ date }}</h1>
+    <ul>
+        {% for showing in showings %}
+        <li>
+            <a href="{% url 'film_details' showing.film.pk %}">{{ showing.film.title }}</a>
+            at {{ showing.start_time }}
+            <form method="post" action="{% url 'purchase_ticket' %}">
+                {% csrf_token %}
+                <input type="hidden" name="showing" value="{{ showing.id }}">
+                <label for="ticket_type">Ticket type:</label>
+                <select name="ticket_type" id="ticket_type">
+                    <option value="S">Student</option>
+                    <option value="C">Child</option>
+                    <option value="A">Adult</option>
+                </select>
+                <label for="quantity">Quantity:</label>
+                <input type="number" name="quantity" id="quantity" min="1" value="1">
+                <input type="submit" value="Purchase">
+            </form>
+        </li>
+        {% empty %}
+        <li>No showings available for this date.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

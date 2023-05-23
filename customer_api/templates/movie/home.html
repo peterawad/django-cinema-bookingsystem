@@ -1,0 +1,17 @@
+{% extends "movie/base.html" %}
+
+{% block title %}Home{% endblock %}{% load static %}
+
+{% block content %}
+    {% load static %}
+    <div class="hero">
+        <h1>Welcome to Cinema Ticket Booking!</h1>
+        <p>Please select a date:</p>
+        <form method="POST" >
+            {% csrf_token %}
+            <input type="date" name="date" required>
+            <a href="{% url 'movie/showinglist' %}" > showinglist</a>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+{% endblock %}

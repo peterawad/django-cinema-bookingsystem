@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Purchase ticket{% endblock %}
+
+{% block content %}
+    <h1>Purchase ticket</h1>
+    <p>Showing: {{ showing.film.title }} at {{ showing.start_time }}</p>
+    <p>Selected ticket type: {{ ticket_type_display }}</p>
+    <p>Quantity: {{ quantity }}</p>
+    <p>Cost: {{ cost }}</p>
+    <form method="post" action="{% url 'purchase_ticket_confirm' %}">
+        {% csrf_token %}
+        <input type="hidden" name="showing" value="{{ showing.id }}">
+        <input type="hidden" name="ticket_type" value="{{ ticket_type }}">
+        <input type="hidden" name="quantity" value="{{ quantity }}">
+        <label for="cardholder_name">Cardholder name:</label>
+        <input type="text" name="cardholder_name" id="cardholder_name" required>
+        <label for="card_number">Card number:</label>
+        <input type="text" name="card_number" id="card_number" required>
+        <label for="expiry_date">Expiry date:</label>
+        <input type="text" name="expiry_date" id
+        ="expiry_date" placeholder="MM/YY" required>
+        <input type="submit" value="Confirm">
+    </form>
+
+    **purchase_ticket_confirm.html**
+
+    ```html
+    {% extends "base.html" %}
+    
+    {% block title %}Confirmation{% endblock %}
+    
+    {% block content %}
+        <h1>Confirmation</h1>
+        <p>You have successfully purchased {{ quantity }} {{ ticket_type_display }} ticket(s) for {{ showing.film.title }} at {{ showing.start_time }}.</p>
+        <p>Total cost: {{ cost }}</p>
+        <p>Cardholder name: {{ cardholder_name }}</p>
+        <p>Card number: **** **** **** {{ last_four_digits }}</p>
+        <p>Expiry date: {{ expiry_date }}</p>
+    {% endblock %}
+        
