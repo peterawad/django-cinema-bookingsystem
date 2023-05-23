@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:   #two services: db and app
+  db:
+    image: mysql:8.0.31   #We do not need to download MySQL separately, this pulls it so that anyone can use it without having mysql installed in thier machine.
+    container_name: db
+    ports:
+      - "3306:3306"
+    environment:     #use code: 'docker exec -it db mysql -U cinema -p' for sql queries, 
+      - MYSQL_DATABASE=cinema    #passwords to access 
+      - MYSQL_USER=cinema
+      - MYSQL_PASSWORD=cinema
+      - MYSQL_ROOT_PASSWORD=cinema
+    volumes:
+      - dbdata:/var/lib/mysql    #stores data even when machine is shutdown. To remove u have to wipe the whole data mentioned under read.
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
+      start_period: 5s
+      interval: 5s
+      timeout: 5s
+      retries: 55
+
+  app:
+    build: .
+    container_name: app
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        python manage.py makemigrations
+        python manage.py migrate
+        python manage.py loaddata initial.yaml
+        python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      MYSQL_DATABASE: cinema
+      MYSQL_USER: cinema
+      MYSQL_PASSWORD: cinema
+      DJANGO_SETTINGS_MODULE: core.settings
+
+volumes:
+  dbdata:
+    driver: local

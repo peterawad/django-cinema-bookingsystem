@@ -1,0 +1,7577 @@
+- model: cinema.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:42:05.601313+00:00
+    is_superuser: true
+    username: superuser
+    first_name: Superuser
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:22:34+00:00
+    email: superuser@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '5000.00'
+    created_at: 2022-12-15 17:41:28+00:00
+    updated_at: 2023-04-02 08:15:46.074994+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:25.278297+00:00
+    is_superuser: false
+    username: cinema_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:49:32+00:00
+    email: cinema_manager1@example.com
+    role: CINEMA_MANAGER
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '50000.00'
+    balance_currency: GBP
+    balance: '2000.00'
+    created_at: 2022-12-15 20:49:32.730002+00:00
+    updated_at: 2023-04-02 07:31:10.233663+00:00
+    groups:
+    - 1
+    user_permissions: []
+- model: cinema.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:39.226421+00:00
+    is_superuser: false
+    username: club_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:52:37+00:00
+    email: club_manager1@example.com
+    role: CLUB_MANAGER
+    date_of_birth: 2003-04-01
+    phone: '+447975777666'
+    country: GB
+    city: London
+    address: 10 Green Lane
+    postal_code: N76 1UI
+    salary_currency: GBP
+    salary: '50000.00'
+    balance_currency: GBP
+    balance: '878.50'
+    created_at: 2022-12-15 20:52:37.562841+00:00
+    updated_at: 2023-04-02 12:45:51.926352+00:00
+    groups:
+    - 2
+    user_permissions: []
+- model: cinema.user
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: security1
+    first_name: ''
+    last_name: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2022-12-15 20:56:42+00:00
+    email: security1@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '40000.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 20:56:42.963414+00:00
+    updated_at: 2022-12-15 20:58:14.230041+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 6
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: janitor1
+    first_name: ''
+    last_name: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2022-12-15 20:57:26+00:00
+    email: janitor1@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '35000.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 20:57:26.157139+00:00
+    updated_at: 2022-12-15 20:58:26.545558+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: inactive
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: false
+    date_joined: 2022-12-15 21:08:14+00:00
+    email: inactive@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 21:08:14.178035+00:00
+    updated_at: 2022-12-15 21:08:38.755812+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 8
+  fields:
+    password: pbkdf2_sha256$390000$b8ZPAwtlCykwPovDZtBOiU$xtZQi7lmT/Zp36ER5WL0MFFAsxNX1h3i897K+sIhPkA=
+    last_login: null
+    is_superuser: false
+    username: customer1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:06:51.778498+00:00
+    email: customer1@example.com
+    role: CUSTOMER
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '500.00'
+    created_at: 2023-04-02 13:06:51.849176+00:00
+    updated_at: 2023-04-02 13:06:51.849184+00:00
+    groups:
+    - 4
+    user_permissions: []
+- model: cinema.user
+  pk: 9
+  fields:
+    password: pbkdf2_sha256$390000$ELunrMBt4mlNmK7KBpxafq$2/gC+ZGjov+7B4D4DpxyTsZktxCpGBbOv4QUHrT9JUE=
+    last_login: null
+    is_superuser: false
+    username: student1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:07:21.201013+00:00
+    email: student1@example.com
+    role: STUDENT
+    date_of_birth: null
+    phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2023-04-02 13:07:21.274011+00:00
+    updated_at: 2023-04-02 13:07:21.274019+00:00
+    groups:
+    - 3
+    user_permissions: []
+- model: cinema.theater
+  pk: 1
+  fields:
+    name: London
+    location: 13 Main Road
+    is_active: true
+    created_at: 2022-12-15 20:33:45.246591+00:00
+    updated_at: 2023-04-02 07:34:29.427656+00:00
+- model: cinema.theater
+  pk: 2
+  fields:
+    name: Liverpool
+    location: Camphill Road
+    is_active: true
+    created_at: 2022-12-15 21:02:25.079346+00:00
+    updated_at: 2023-04-02 07:35:38.678605+00:00
+- model: cinema.theater
+  pk: 3
+  fields:
+    name: Manchester
+    location: 44 George St
+    is_active: false
+    created_at: 2022-12-15 21:07:34.577768+00:00
+    updated_at: 2023-04-02 07:36:18.717602+00:00
+- model: cinema.category
+  pk: 1
+  fields:
+    name: Science Fiction
+    is_active: true
+- model: cinema.category
+  pk: 2
+  fields:
+    name: Comedy
+    is_active: true
+- model: cinema.category
+  pk: 3
+  fields:
+    name: Action
+    is_active: true
+- model: cinema.category
+  pk: 4
+  fields:
+    name: Inactive
+    is_active: false
+- model: cinema.category
+  pk: 5
+  fields:
+    name: Drama
+    is_active: true
+- model: cinema.movie
+  pk: 1
+  fields:
+    category: 1
+    name: Start Trek
+    description: The brash James T. Kirk tries to live up to his father's legacy with
+      Mr. Spock keeping him in check as a vengeful Romulan from the future creates
+      black holes to destroy the Federation one planet at a time.
+    image: cinema/static/storage/st.jpg
+    duration: 02:07:00
+    release_date: 2009-03-08
+    age_rating: PG-13
+    starts_at: 2022-12-15 20:34:40+00:00
+    ends_at: 2023-12-15 22:34:46+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 20:34:48.354836+00:00
+    updated_at: 2023-03-31 17:50:37.130227+00:00
+- model: cinema.movie
+  pk: 2
+  fields:
+    category: 3
+    name: Top Gun
+    description: As students at the United States Navy's elite fighter weapons school
+      compete to be best in the class, one daring young pilot learns a few things
+      from a civilian instructor that are not taught in the classroom.
+    image: cinema/static/storage/tg.jpg
+    duration: 01:49:00
+    release_date: 1986-10-03
+    age_rating: PG
+    starts_at: 2022-12-15 21:03:18+00:00
+    ends_at: 2023-12-15 21:03:21+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 21:03:40.851786+00:00
+    updated_at: 2023-03-31 17:47:29.982682+00:00
+- model: cinema.movie
+  pk: 3
+  fields:
+    category: 1
+    name: Inactive
+    description: Description of an inactive movie.
+    image: ''
+    duration: 02:00:00
+    release_date: 2023-03-31
+    age_rating: G
+    starts_at: 2022-12-24 19:03:59+00:00
+    ends_at: 2022-12-24 21:04:01+00:00
+    is_active: false
+    created_by: 1
+    created_at: 2022-12-15 21:04:11.818911+00:00
+    updated_at: 2023-03-31 17:45:21.789755+00:00
+- model: cinema.movie
+  pk: 4
+  fields:
+    category: 5
+    name: The Green Mile
+    description: 'The lives of guards on Death Row are affected by one of their charges:
+      a black man accused of child murder and rape, yet who has a mysterious gift.'
+    image: cinema/static/storage/gm.jpg
+    duration: 03:09:00
+    release_date: 2000-03-03
+    age_rating: R
+    starts_at: 2022-12-15 21:05:10+00:00
+    ends_at: 2023-12-15 21:05:12+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 21:05:18.217884+00:00
+    updated_at: 2023-03-31 17:43:31.465381+00:00
+- model: cinema.movie
+  pk: 5
+  fields:
+    category: 1
+    name: Star Wars
+    description: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a
+      Wookiee and two droids to save the galaxy from the Empire's world-destroying
+      battle station, while also attempting to rescue Princess Leia from the mysterious
+      Darth Vader.
+    image: cinema/static/storage/sw.jpg
+    duration: 02:01:00
+    release_date: 1977-12-27
+    age_rating: PG
+    starts_at: 2022-12-15 21:06:50+00:00
+    ends_at: 2023-12-15 21:06:52+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2022-12-15 21:06:58.692472+00:00
+    updated_at: 2023-03-31 17:44:20.755277+00:00
+- model: cinema.screen
+  pk: 1
+  fields:
+    theater: 1
+    movie: 1
+    name: VIP 1
+    type: VIP
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 20:46:04.608442+00:00
+    updated_at: 2022-12-15 21:29:50.572793+00:00
+- model: cinema.screen
+  pk: 2
+  fields:
+    theater: 1
+    movie: 5
+    name: VIP 2
+    type: VIP
+    total_seats: 20
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:12:04.967905+00:00
+    updated_at: 2022-12-15 21:25:13.257180+00:00
+- model: cinema.screen
+  pk: 3
+  fields:
+    theater: 1
+    movie: null
+    name: Inactive
+    type: VIP
+    total_seats: 10
+    is_active: false
+    is_occupied: false
+    created_at: 2022-12-15 21:13:50.205508+00:00
+    updated_at: 2022-12-15 21:23:25.155653+00:00
+- model: cinema.screen
+  pk: 4
+  fields:
+    theater: 1
+    movie: 2
+    name: Public 1
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:24:20.951762+00:00
+    updated_at: 2022-12-15 21:46:10.022437+00:00
+- model: cinema.screen
+  pk: 5
+  fields:
+    theater: 1
+    movie: 4
+    name: Public 2
+    type: PUBLIC
+    total_seats: 15
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:24:49.692642+00:00
+    updated_at: 2022-12-15 21:46:22.069327+00:00
+- model: cinema.screen
+  pk: 6
+  fields:
+    theater: 2
+    movie: 4
+    name: VIP 1
+    type: VIP
+    total_seats: 30
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:31:24.276906+00:00
+    updated_at: 2022-12-15 21:46:49.583049+00:00
+- model: cinema.ticket
+  pk: 1
+  fields:
+    screen: 1
+    customer: 1
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 20:46:49.083825+00:00
+    created_at: 2022-12-15 20:46:04.610821+00:00
+    updated_at: 2022-12-15 20:46:49.083910+00:00
+- model: cinema.ticket
+  pk: 2
+  fields:
+    screen: 1
+    customer: 2
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 20:46:49.083825+00:00
+    created_at: 2022-12-15 20:46:04.610875+00:00
+    updated_at: 2022-12-15 20:46:04.610883+00:00
+- model: cinema.ticket
+  pk: 3
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610903+00:00
+    updated_at: 2022-12-15 20:46:04.610909+00:00
+- model: cinema.ticket
+  pk: 4
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610926+00:00
+    updated_at: 2022-12-15 20:46:04.610933+00:00
+- model: cinema.ticket
+  pk: 5
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610951+00:00
+    updated_at: 2022-12-15 20:46:04.610958+00:00
+- model: cinema.ticket
+  pk: 6
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610983+00:00
+    updated_at: 2022-12-15 20:46:04.610991+00:00
+- model: cinema.ticket
+  pk: 7
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611014+00:00
+    updated_at: 2022-12-15 20:46:04.611024+00:00
+- model: cinema.ticket
+  pk: 8
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611071+00:00
+    updated_at: 2022-12-15 20:46:04.611077+00:00
+- model: cinema.ticket
+  pk: 9
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611094+00:00
+    updated_at: 2022-12-15 20:46:04.611103+00:00
+- model: cinema.ticket
+  pk: 10
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611123+00:00
+    updated_at: 2022-12-15 20:46:04.611130+00:00
+- model: cinema.ticket
+  pk: 11
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970041+00:00
+    updated_at: 2022-12-15 21:12:04.970056+00:00
+- model: cinema.ticket
+  pk: 12
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970073+00:00
+    updated_at: 2022-12-15 21:12:04.970078+00:00
+- model: cinema.ticket
+  pk: 13
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970091+00:00
+    updated_at: 2022-12-15 21:12:04.970097+00:00
+- model: cinema.ticket
+  pk: 14
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970109+00:00
+    updated_at: 2022-12-15 21:12:04.970114+00:00
+- model: cinema.ticket
+  pk: 15
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970129+00:00
+    updated_at: 2022-12-15 21:12:04.970133+00:00
+- model: cinema.ticket
+  pk: 16
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970150+00:00
+    updated_at: 2022-12-15 21:12:04.970156+00:00
+- model: cinema.ticket
+  pk: 17
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970168+00:00
+    updated_at: 2022-12-15 21:12:04.970173+00:00
+- model: cinema.ticket
+  pk: 18
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970184+00:00
+    updated_at: 2022-12-15 21:12:04.970189+00:00
+- model: cinema.ticket
+  pk: 19
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970201+00:00
+    updated_at: 2022-12-15 21:12:04.970206+00:00
+- model: cinema.ticket
+  pk: 20
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970219+00:00
+    updated_at: 2022-12-15 21:12:04.970224+00:00
+- model: cinema.ticket
+  pk: 21
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970237+00:00
+    updated_at: 2022-12-15 21:12:04.970241+00:00
+- model: cinema.ticket
+  pk: 22
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970253+00:00
+    updated_at: 2022-12-15 21:12:04.970258+00:00
+- model: cinema.ticket
+  pk: 23
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970270+00:00
+    updated_at: 2022-12-15 21:12:04.970274+00:00
+- model: cinema.ticket
+  pk: 24
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970286+00:00
+    updated_at: 2022-12-15 21:12:04.970291+00:00
+- model: cinema.ticket
+  pk: 25
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970303+00:00
+    updated_at: 2022-12-15 21:12:04.970308+00:00
+- model: cinema.ticket
+  pk: 26
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 16
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970320+00:00
+    updated_at: 2022-12-15 21:12:04.970325+00:00
+- model: cinema.ticket
+  pk: 27
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970336+00:00
+    updated_at: 2022-12-15 21:12:04.970341+00:00
+- model: cinema.ticket
+  pk: 28
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970352+00:00
+    updated_at: 2022-12-15 21:12:04.970357+00:00
+- model: cinema.ticket
+  pk: 29
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 19
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970369+00:00
+    updated_at: 2022-12-15 21:12:04.970373+00:00
+- model: cinema.ticket
+  pk: 30
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 20
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970385+00:00
+    updated_at: 2022-12-15 21:12:04.970389+00:00
+- model: cinema.ticket
+  pk: 116
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024587+00:00
+    updated_at: 2022-12-15 21:46:10.024603+00:00
+- model: cinema.ticket
+  pk: 117
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024615+00:00
+    updated_at: 2022-12-15 21:46:10.024619+00:00
+- model: cinema.ticket
+  pk: 118
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024630+00:00
+    updated_at: 2022-12-15 21:46:10.024633+00:00
+- model: cinema.ticket
+  pk: 119
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024643+00:00
+    updated_at: 2022-12-15 21:46:10.024647+00:00
+- model: cinema.ticket
+  pk: 120
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024657+00:00
+    updated_at: 2022-12-15 21:46:10.024660+00:00
+- model: cinema.ticket
+  pk: 121
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024682+00:00
+    updated_at: 2022-12-15 21:46:10.024686+00:00
+- model: cinema.ticket
+  pk: 122
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024695+00:00
+    updated_at: 2022-12-15 21:46:10.024699+00:00
+- model: cinema.ticket
+  pk: 123
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024708+00:00
+    updated_at: 2022-12-15 21:46:10.024711+00:00
+- model: cinema.ticket
+  pk: 124
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024720+00:00
+    updated_at: 2022-12-15 21:46:10.024724+00:00
+- model: cinema.ticket
+  pk: 125
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024734+00:00
+    updated_at: 2022-12-15 21:46:10.024737+00:00
+- model: cinema.ticket
+  pk: 126
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.465992+00:00
+    updated_at: 2022-12-15 21:46:18.466010+00:00
+- model: cinema.ticket
+  pk: 127
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466034+00:00
+    updated_at: 2022-12-15 21:46:18.466042+00:00
+- model: cinema.ticket
+  pk: 128
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466063+00:00
+    updated_at: 2022-12-15 21:46:18.466070+00:00
+- model: cinema.ticket
+  pk: 129
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466087+00:00
+    updated_at: 2022-12-15 21:46:18.466094+00:00
+- model: cinema.ticket
+  pk: 130
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466112+00:00
+    updated_at: 2022-12-15 21:46:18.466119+00:00
+- model: cinema.ticket
+  pk: 131
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466137+00:00
+    updated_at: 2022-12-15 21:46:18.466173+00:00
+- model: cinema.ticket
+  pk: 132
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466192+00:00
+    updated_at: 2022-12-15 21:46:18.466199+00:00
+- model: cinema.ticket
+  pk: 133
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466247+00:00
+    updated_at: 2022-12-15 21:46:18.466255+00:00
+- model: cinema.ticket
+  pk: 134
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466273+00:00
+    updated_at: 2022-12-15 21:46:18.466279+00:00
+- model: cinema.ticket
+  pk: 135
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466298+00:00
+    updated_at: 2022-12-15 21:46:18.466307+00:00
+- model: cinema.ticket
+  pk: 136
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466324+00:00
+    updated_at: 2022-12-15 21:46:18.466331+00:00
+- model: cinema.ticket
+  pk: 137
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466347+00:00
+    updated_at: 2022-12-15 21:46:18.466354+00:00
+- model: cinema.ticket
+  pk: 138
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466372+00:00
+    updated_at: 2022-12-15 21:46:18.466379+00:00
+- model: cinema.ticket
+  pk: 139
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466396+00:00
+    updated_at: 2022-12-15 21:46:18.466402+00:00
+- model: cinema.ticket
+  pk: 140
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466419+00:00
+    updated_at: 2022-12-15 21:46:18.466425+00:00
+- model: cinema.ticket
+  pk: 141
+  fields:
+    screen: 6
+    customer: 2
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 21:54:39.917815+00:00
+    created_at: 2022-12-15 21:46:41.417395+00:00
+    updated_at: 2022-12-15 21:54:39.917955+00:00
+- model: cinema.ticket
+  pk: 142
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417481+00:00
+    updated_at: 2022-12-15 21:46:41.417488+00:00
+- model: cinema.ticket
+  pk: 143
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417506+00:00
+    updated_at: 2022-12-15 21:46:41.417512+00:00
+- model: cinema.ticket
+  pk: 144
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417528+00:00
+    updated_at: 2022-12-15 21:46:41.417534+00:00
+- model: cinema.ticket
+  pk: 145
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417551+00:00
+    updated_at: 2022-12-15 21:46:41.417558+00:00
+- model: cinema.ticket
+  pk: 146
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417575+00:00
+    updated_at: 2022-12-15 21:46:41.417582+00:00
+- model: cinema.ticket
+  pk: 147
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417599+00:00
+    updated_at: 2022-12-15 21:46:41.417605+00:00
+- model: cinema.ticket
+  pk: 148
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417622+00:00
+    updated_at: 2022-12-15 21:46:41.417629+00:00
+- model: cinema.ticket
+  pk: 149
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417645+00:00
+    updated_at: 2022-12-15 21:46:41.417651+00:00
+- model: cinema.ticket
+  pk: 150
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417667+00:00
+    updated_at: 2022-12-15 21:46:41.417672+00:00
+- model: cinema.ticket
+  pk: 151
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417688+00:00
+    updated_at: 2022-12-15 21:46:41.417695+00:00
+- model: cinema.ticket
+  pk: 152
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417712+00:00
+    updated_at: 2022-12-15 21:46:41.417718+00:00
+- model: cinema.ticket
+  pk: 153
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417734+00:00
+    updated_at: 2022-12-15 21:46:41.417739+00:00
+- model: cinema.ticket
+  pk: 154
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417755+00:00
+    updated_at: 2022-12-15 21:46:41.417762+00:00
+- model: cinema.ticket
+  pk: 155
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417778+00:00
+    updated_at: 2022-12-15 21:46:41.417784+00:00
+- model: cinema.ticket
+  pk: 156
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 16
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417799+00:00
+    updated_at: 2022-12-15 21:46:41.417805+00:00
+- model: cinema.ticket
+  pk: 157
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417821+00:00
+    updated_at: 2022-12-15 21:46:41.417827+00:00
+- model: cinema.ticket
+  pk: 158
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417843+00:00
+    updated_at: 2022-12-15 21:46:41.417848+00:00
+- model: cinema.ticket
+  pk: 159
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 19
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417864+00:00
+    updated_at: 2022-12-15 21:46:41.417869+00:00
+- model: cinema.ticket
+  pk: 160
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 20
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417885+00:00
+    updated_at: 2022-12-15 21:46:41.417891+00:00
+- model: cinema.ticket
+  pk: 161
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 21
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417906+00:00
+    updated_at: 2022-12-15 21:46:41.417911+00:00
+- model: cinema.ticket
+  pk: 162
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 22
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417926+00:00
+    updated_at: 2022-12-15 21:46:41.417932+00:00
+- model: cinema.ticket
+  pk: 163
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 23
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417946+00:00
+    updated_at: 2022-12-15 21:46:41.417952+00:00
+- model: cinema.ticket
+  pk: 164
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 24
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417967+00:00
+    updated_at: 2022-12-15 21:46:41.417973+00:00
+- model: cinema.ticket
+  pk: 165
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 25
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417988+00:00
+    updated_at: 2022-12-15 21:46:41.417994+00:00
+- model: cinema.ticket
+  pk: 166
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 26
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418009+00:00
+    updated_at: 2022-12-15 21:46:41.418015+00:00
+- model: cinema.ticket
+  pk: 167
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 27
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418030+00:00
+    updated_at: 2022-12-15 21:46:41.418036+00:00
+- model: cinema.ticket
+  pk: 168
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 28
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418051+00:00
+    updated_at: 2023-04-02 12:45:51.923407+00:00
+- model: cinema.ticket
+  pk: 169
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 29
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418072+00:00
+    updated_at: 2023-04-02 12:45:51.920612+00:00
+- model: cinema.ticket
+  pk: 170
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 30
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418093+00:00
+    updated_at: 2023-04-02 12:45:51.917278+00:00
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add user
+    content_type: 1
+    codename: add_user
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change user
+    content_type: 1
+    codename: change_user
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete user
+    content_type: 1
+    codename: delete_user
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view user
+    content_type: 1
+    codename: view_user
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add category
+    content_type: 2
+    codename: add_category
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change category
+    content_type: 2
+    codename: change_category
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete category
+    content_type: 2
+    codename: delete_category
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view category
+    content_type: 2
+    codename: view_category
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add customer
+    content_type: 3
+    codename: add_customer
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change customer
+    content_type: 3
+    codename: change_customer
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete customer
+    content_type: 3
+    codename: delete_customer
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view customer
+    content_type: 3
+    codename: view_customer
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add movie
+    content_type: 4
+    codename: add_movie
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change movie
+    content_type: 4
+    codename: change_movie
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete movie
+    content_type: 4
+    codename: delete_movie
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view movie
+    content_type: 4
+    codename: view_movie
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add theater
+    content_type: 5
+    codename: add_theater
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change theater
+    content_type: 5
+    codename: change_theater
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete theater
+    content_type: 5
+    codename: delete_theater
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view theater
+    content_type: 5
+    codename: view_theater
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add screen
+    content_type: 6
+    codename: add_screen
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change screen
+    content_type: 6
+    codename: change_screen
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete screen
+    content_type: 6
+    codename: delete_screen
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view screen
+    content_type: 6
+    codename: view_screen
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add ticket
+    content_type: 7
+    codename: add_ticket
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change ticket
+    content_type: 7
+    codename: change_ticket
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete ticket
+    content_type: 7
+    codename: delete_ticket
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view ticket
+    content_type: 7
+    codename: view_ticket
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add log entry
+    content_type: 8
+    codename: add_logentry
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change log entry
+    content_type: 8
+    codename: change_logentry
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete log entry
+    content_type: 8
+    codename: delete_logentry
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view log entry
+    content_type: 8
+    codename: view_logentry
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add permission
+    content_type: 9
+    codename: add_permission
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change permission
+    content_type: 9
+    codename: change_permission
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete permission
+    content_type: 9
+    codename: delete_permission
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view permission
+    content_type: 9
+    codename: view_permission
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add group
+    content_type: 10
+    codename: add_group
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change group
+    content_type: 10
+    codename: change_group
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete group
+    content_type: 10
+    codename: delete_group
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view group
+    content_type: 10
+    codename: view_group
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add content type
+    content_type: 11
+    codename: add_contenttype
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change content type
+    content_type: 11
+    codename: change_contenttype
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete content type
+    content_type: 11
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view content type
+    content_type: 11
+    codename: view_contenttype
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add session
+    content_type: 12
+    codename: add_session
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change session
+    content_type: 12
+    codename: change_session
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete session
+    content_type: 12
+    codename: delete_session
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view session
+    content_type: 12
+    codename: view_session
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can buy ticket
+    content_type: 7
+    codename: buy_ticket
+- model: auth.group
+  pk: 1
+  fields:
+    name: Cinema Manager
+    is_active: true
+    permissions:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 4
+- model: auth.group
+  pk: 2
+  fields:
+    name: Club Manager
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: auth.group
+  pk: 3
+  fields:
+    name: Student
+    is_active: true
+    permissions: []
+- model: auth.group
+  pk: 4
+  fields:
+    name: Customer
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: cinema
+    model: user
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: cinema
+    model: category
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: cinema
+    model: customer
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: cinema
+    model: movie
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: cinema
+    model: theater
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: cinema
+    model: screen
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: cinema
+    model: ticket
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: sessions
+    model: session
+- model: cinema.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:42:05.601313+00:00
+    is_superuser: true
+    username: superuser
+    first_name: Superuser
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:22:34+00:00
+    email: superuser@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '5000.00'
+    created_at: 2022-12-15 17:41:28+00:00
+    updated_at: 2023-04-02 08:15:46.074994+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:25+00:00
+    is_superuser: false
+    username: cinema_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:49:32+00:00
+    email: cinema_manager1@example.com
+    role: CINEMA_MANAGER
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '50000.00'
+    balance_currency: GBP
+    balance: '2000.00'
+    created_at: 2022-12-15 20:49:32.730002+00:00
+    updated_at: 2023-05-04 22:10:03.515845+00:00
+    groups:
+    - 1
+    user_permissions:
+    - 29
+    - 30
+    - 31
+    - 32
+    - 37
+    - 38
+    - 39
+    - 40
+    - 33
+    - 34
+    - 35
+    - 36
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 1
+    - 2
+    - 3
+    - 4
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+- model: cinema.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:39+00:00
+    is_superuser: false
+    username: club_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:52:37+00:00
+    email: club_manager1@example.com
+    role: CLUB_MANAGER
+    date_of_birth: 2003-04-01
+    phone: '+447975777666'
+    land_phone: null
+    city: London
+    address: 10 Green Lane
+    postal_code: N76 1UI
+    salary_currency: GBP
+    salary: '50000.00'
+    balance_currency: GBP
+    balance: '878.50'
+    created_at: 2022-12-15 20:52:37.562841+00:00
+    updated_at: 2023-05-04 22:10:43.904023+00:00
+    groups:
+    - 2
+    user_permissions:
+    - 29
+- model: cinema.user
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: security1
+    first_name: ''
+    last_name: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2022-12-15 20:56:42+00:00
+    email: security1@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '40000.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 20:56:42.963414+00:00
+    updated_at: 2022-12-15 20:58:14.230041+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 6
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: janitor1
+    first_name: ''
+    last_name: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2022-12-15 20:57:26+00:00
+    email: janitor1@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '35000.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 20:57:26.157139+00:00
+    updated_at: 2022-12-15 20:58:26.545558+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: inactive
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: false
+    date_joined: 2022-12-15 21:08:14+00:00
+    email: inactive@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 21:08:14.178035+00:00
+    updated_at: 2022-12-15 21:08:38.755812+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 8
+  fields:
+    password: pbkdf2_sha256$390000$b8ZPAwtlCykwPovDZtBOiU$xtZQi7lmT/Zp36ER5WL0MFFAsxNX1h3i897K+sIhPkA=
+    last_login: null
+    is_superuser: false
+    username: customer1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:06:51.778498+00:00
+    email: customer1@example.com
+    role: CUSTOMER
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '500.00'
+    created_at: 2023-04-02 13:06:51.849176+00:00
+    updated_at: 2023-04-02 13:06:51.849184+00:00
+    groups:
+    - 4
+    user_permissions: []
+- model: cinema.user
+  pk: 9
+  fields:
+    password: pbkdf2_sha256$390000$ELunrMBt4mlNmK7KBpxafq$2/gC+ZGjov+7B4D4DpxyTsZktxCpGBbOv4QUHrT9JUE=
+    last_login: null
+    is_superuser: false
+    username: student1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:07:21.201013+00:00
+    email: student1@example.com
+    role: STUDENT
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2023-04-02 13:07:21.274011+00:00
+    updated_at: 2023-04-02 13:07:21.274019+00:00
+    groups:
+    - 3
+    user_permissions: []
+- model: cinema.theater
+  pk: 1
+  fields:
+    name: UWE Frenchay Campus
+    location: Stoke Gifford, Bristol BS16 1YN
+    is_active: true
+    created_at: 2022-12-15 20:33:45.246591+00:00
+    updated_at: 2023-05-04 21:49:50.622104+00:00
+- model: cinema.theater
+  pk: 2
+  fields:
+    name: UWE Glenside campus
+    location: Blackberry Hill, Stapleton, Bristol BS16 1DD
+    is_active: true
+    created_at: 2022-12-15 21:02:25.079346+00:00
+    updated_at: 2023-05-04 21:50:20.758811+00:00
+- model: cinema.theater
+  pk: 3
+  fields:
+    name: UWE Bower Ashton city campus
+    location: Kennel Lodge Rd, Bristol BS3 2JT
+    is_active: true
+    created_at: 2022-12-15 21:07:34.577768+00:00
+    updated_at: 2023-05-04 21:50:58.085180+00:00
+- model: cinema.category
+  pk: 1
+  fields:
+    name: Science Fiction
+    is_active: true
+- model: cinema.category
+  pk: 2
+  fields:
+    name: Comedy
+    is_active: true
+- model: cinema.category
+  pk: 3
+  fields:
+    name: Action
+    is_active: true
+- model: cinema.category
+  pk: 4
+  fields:
+    name: Inactive
+    is_active: false
+- model: cinema.category
+  pk: 5
+  fields:
+    name: Drama
+    is_active: true
+- model: cinema.movie
+  pk: 6
+  fields:
+    category: 3
+    name: Avengers
+    description: Soemthinf tandom
+    image: cinema/static/storage/av1.jpg
+    duration: 02:00:00
+    release_date: 2022-05-04
+    age_rating: PG
+    starts_at: 2022-05-04 18:50:01+00:00
+    ends_at: 2024-05-04 18:50:10+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 18:50:14.863396+00:00
+    updated_at: 2023-05-04 18:50:14.863411+00:00
+- model: cinema.movie
+  pk: 7
+  fields:
+    category: 3
+    name: interstellar
+    description: some des
+    image: cinema/static/storage/62259_poster_148037241838_o9wTHdR.jpg
+    duration: 02:54:45
+    release_date: 2022-05-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 18:52:37+00:00
+    ends_at: 2024-05-04 18:52:39+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 18:52:43.672616+00:00
+    updated_at: 2023-05-04 18:52:43.672646+00:00
+- model: cinema.movie
+  pk: 8
+  fields:
+    category: 3
+    name: Batman v Superman
+    description: some dev
+    image: cinema/static/storage/batvsup.jpg
+    duration: 03:45:00
+    release_date: 2022-02-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 21:55:57+00:00
+    ends_at: 2023-11-04 21:55:59+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 21:56:17.542104+00:00
+    updated_at: 2023-05-04 21:56:17.542130+00:00
+- model: cinema.movie
+  pk: 9
+  fields:
+    category: 2
+    name: sus
+    description: sus
+    image: ''
+    duration: 02:00:00
+    release_date: 2023-05-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 22:04:13+00:00
+    ends_at: 2024-05-04 22:04:19+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 22:04:28.965365+00:00
+    updated_at: 2023-05-04 22:04:28.965388+00:00
+- model: cinema.screen
+  pk: 1
+  fields:
+    theater: 1
+    movie: null
+    name: VIP 1
+    type: VIP
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 20:46:04.608442+00:00
+    updated_at: 2022-12-15 21:29:50.572793+00:00
+- model: cinema.screen
+  pk: 2
+  fields:
+    theater: 1
+    movie: null
+    name: VIP 2
+    type: VIP
+    total_seats: 20
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:12:04.967905+00:00
+    updated_at: 2022-12-15 21:25:13.257180+00:00
+- model: cinema.screen
+  pk: 3
+  fields:
+    theater: 1
+    movie: null
+    name: Inactive
+    type: VIP
+    total_seats: 10
+    is_active: false
+    is_occupied: false
+    created_at: 2022-12-15 21:13:50.205508+00:00
+    updated_at: 2022-12-15 21:23:25.155653+00:00
+- model: cinema.screen
+  pk: 4
+  fields:
+    theater: 1
+    movie: null
+    name: Public 1
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:24:20.951762+00:00
+    updated_at: 2022-12-15 21:46:10.022437+00:00
+- model: cinema.screen
+  pk: 5
+  fields:
+    theater: 1
+    movie: null
+    name: Public 2
+    type: PUBLIC
+    total_seats: 15
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:24:49.692642+00:00
+    updated_at: 2022-12-15 21:46:22.069327+00:00
+- model: cinema.screen
+  pk: 6
+  fields:
+    theater: 2
+    movie: null
+    name: VIP 1
+    type: VIP
+    total_seats: 30
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:31:24.276906+00:00
+    updated_at: 2022-12-15 21:46:49.583049+00:00
+- model: cinema.screen
+  pk: 7
+  fields:
+    theater: 1
+    movie: 6
+    name: Screen 1
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 18:50:31.874487+00:00
+    updated_at: 2023-05-04 18:50:31.874533+00:00
+- model: cinema.screen
+  pk: 8
+  fields:
+    theater: 1
+    movie: 7
+    name: screen 2
+    type: VIP
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 18:53:13.573708+00:00
+    updated_at: 2023-05-04 18:53:13.573746+00:00
+- model: cinema.screen
+  pk: 9
+  fields:
+    theater: 1
+    movie: 8
+    name: Screen 3A
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 21:56:52.099744+00:00
+    updated_at: 2023-05-04 21:56:52.099770+00:00
+- model: cinema.screen
+  pk: 10
+  fields:
+    theater: 2
+    movie: 9
+    name: screen 1B
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 22:05:34.161894+00:00
+    updated_at: 2023-05-04 22:05:34.161939+00:00
+- model: cinema.ticket
+  pk: 1
+  fields:
+    screen: 1
+    customer: 1
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 20:46:49.083825+00:00
+    created_at: 2022-12-15 20:46:04.610821+00:00
+    updated_at: 2022-12-15 20:46:49.083910+00:00
+- model: cinema.ticket
+  pk: 2
+  fields:
+    screen: 1
+    customer: 2
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 20:46:49.083825+00:00
+    created_at: 2022-12-15 20:46:04.610875+00:00
+    updated_at: 2022-12-15 20:46:04.610883+00:00
+- model: cinema.ticket
+  pk: 3
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610903+00:00
+    updated_at: 2022-12-15 20:46:04.610909+00:00
+- model: cinema.ticket
+  pk: 4
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610926+00:00
+    updated_at: 2022-12-15 20:46:04.610933+00:00
+- model: cinema.ticket
+  pk: 5
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610951+00:00
+    updated_at: 2022-12-15 20:46:04.610958+00:00
+- model: cinema.ticket
+  pk: 6
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610983+00:00
+    updated_at: 2022-12-15 20:46:04.610991+00:00
+- model: cinema.ticket
+  pk: 7
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611014+00:00
+    updated_at: 2022-12-15 20:46:04.611024+00:00
+- model: cinema.ticket
+  pk: 8
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611071+00:00
+    updated_at: 2022-12-15 20:46:04.611077+00:00
+- model: cinema.ticket
+  pk: 9
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611094+00:00
+    updated_at: 2022-12-15 20:46:04.611103+00:00
+- model: cinema.ticket
+  pk: 10
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611123+00:00
+    updated_at: 2022-12-15 20:46:04.611130+00:00
+- model: cinema.ticket
+  pk: 11
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970041+00:00
+    updated_at: 2022-12-15 21:12:04.970056+00:00
+- model: cinema.ticket
+  pk: 12
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970073+00:00
+    updated_at: 2022-12-15 21:12:04.970078+00:00
+- model: cinema.ticket
+  pk: 13
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970091+00:00
+    updated_at: 2022-12-15 21:12:04.970097+00:00
+- model: cinema.ticket
+  pk: 14
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970109+00:00
+    updated_at: 2022-12-15 21:12:04.970114+00:00
+- model: cinema.ticket
+  pk: 15
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970129+00:00
+    updated_at: 2022-12-15 21:12:04.970133+00:00
+- model: cinema.ticket
+  pk: 16
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970150+00:00
+    updated_at: 2022-12-15 21:12:04.970156+00:00
+- model: cinema.ticket
+  pk: 17
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970168+00:00
+    updated_at: 2022-12-15 21:12:04.970173+00:00
+- model: cinema.ticket
+  pk: 18
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970184+00:00
+    updated_at: 2022-12-15 21:12:04.970189+00:00
+- model: cinema.ticket
+  pk: 19
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970201+00:00
+    updated_at: 2022-12-15 21:12:04.970206+00:00
+- model: cinema.ticket
+  pk: 20
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970219+00:00
+    updated_at: 2022-12-15 21:12:04.970224+00:00
+- model: cinema.ticket
+  pk: 21
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970237+00:00
+    updated_at: 2022-12-15 21:12:04.970241+00:00
+- model: cinema.ticket
+  pk: 22
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970253+00:00
+    updated_at: 2022-12-15 21:12:04.970258+00:00
+- model: cinema.ticket
+  pk: 23
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970270+00:00
+    updated_at: 2022-12-15 21:12:04.970274+00:00
+- model: cinema.ticket
+  pk: 24
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970286+00:00
+    updated_at: 2022-12-15 21:12:04.970291+00:00
+- model: cinema.ticket
+  pk: 25
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970303+00:00
+    updated_at: 2022-12-15 21:12:04.970308+00:00
+- model: cinema.ticket
+  pk: 26
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 16
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970320+00:00
+    updated_at: 2022-12-15 21:12:04.970325+00:00
+- model: cinema.ticket
+  pk: 27
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970336+00:00
+    updated_at: 2022-12-15 21:12:04.970341+00:00
+- model: cinema.ticket
+  pk: 28
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970352+00:00
+    updated_at: 2022-12-15 21:12:04.970357+00:00
+- model: cinema.ticket
+  pk: 29
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 19
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970369+00:00
+    updated_at: 2022-12-15 21:12:04.970373+00:00
+- model: cinema.ticket
+  pk: 30
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 20
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970385+00:00
+    updated_at: 2022-12-15 21:12:04.970389+00:00
+- model: cinema.ticket
+  pk: 116
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024587+00:00
+    updated_at: 2022-12-15 21:46:10.024603+00:00
+- model: cinema.ticket
+  pk: 117
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024615+00:00
+    updated_at: 2022-12-15 21:46:10.024619+00:00
+- model: cinema.ticket
+  pk: 118
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024630+00:00
+    updated_at: 2022-12-15 21:46:10.024633+00:00
+- model: cinema.ticket
+  pk: 119
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024643+00:00
+    updated_at: 2022-12-15 21:46:10.024647+00:00
+- model: cinema.ticket
+  pk: 120
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024657+00:00
+    updated_at: 2022-12-15 21:46:10.024660+00:00
+- model: cinema.ticket
+  pk: 121
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024682+00:00
+    updated_at: 2022-12-15 21:46:10.024686+00:00
+- model: cinema.ticket
+  pk: 122
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024695+00:00
+    updated_at: 2022-12-15 21:46:10.024699+00:00
+- model: cinema.ticket
+  pk: 123
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024708+00:00
+    updated_at: 2022-12-15 21:46:10.024711+00:00
+- model: cinema.ticket
+  pk: 124
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024720+00:00
+    updated_at: 2022-12-15 21:46:10.024724+00:00
+- model: cinema.ticket
+  pk: 125
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024734+00:00
+    updated_at: 2022-12-15 21:46:10.024737+00:00
+- model: cinema.ticket
+  pk: 126
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.465992+00:00
+    updated_at: 2022-12-15 21:46:18.466010+00:00
+- model: cinema.ticket
+  pk: 127
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466034+00:00
+    updated_at: 2022-12-15 21:46:18.466042+00:00
+- model: cinema.ticket
+  pk: 128
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466063+00:00
+    updated_at: 2022-12-15 21:46:18.466070+00:00
+- model: cinema.ticket
+  pk: 129
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466087+00:00
+    updated_at: 2022-12-15 21:46:18.466094+00:00
+- model: cinema.ticket
+  pk: 130
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466112+00:00
+    updated_at: 2022-12-15 21:46:18.466119+00:00
+- model: cinema.ticket
+  pk: 131
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466137+00:00
+    updated_at: 2022-12-15 21:46:18.466173+00:00
+- model: cinema.ticket
+  pk: 132
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466192+00:00
+    updated_at: 2022-12-15 21:46:18.466199+00:00
+- model: cinema.ticket
+  pk: 133
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466247+00:00
+    updated_at: 2022-12-15 21:46:18.466255+00:00
+- model: cinema.ticket
+  pk: 134
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466273+00:00
+    updated_at: 2022-12-15 21:46:18.466279+00:00
+- model: cinema.ticket
+  pk: 135
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466298+00:00
+    updated_at: 2022-12-15 21:46:18.466307+00:00
+- model: cinema.ticket
+  pk: 136
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466324+00:00
+    updated_at: 2022-12-15 21:46:18.466331+00:00
+- model: cinema.ticket
+  pk: 137
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466347+00:00
+    updated_at: 2022-12-15 21:46:18.466354+00:00
+- model: cinema.ticket
+  pk: 138
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466372+00:00
+    updated_at: 2022-12-15 21:46:18.466379+00:00
+- model: cinema.ticket
+  pk: 139
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466396+00:00
+    updated_at: 2022-12-15 21:46:18.466402+00:00
+- model: cinema.ticket
+  pk: 140
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466419+00:00
+    updated_at: 2022-12-15 21:46:18.466425+00:00
+- model: cinema.ticket
+  pk: 141
+  fields:
+    screen: 6
+    customer: 2
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 21:54:39.917815+00:00
+    created_at: 2022-12-15 21:46:41.417395+00:00
+    updated_at: 2022-12-15 21:54:39.917955+00:00
+- model: cinema.ticket
+  pk: 142
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417481+00:00
+    updated_at: 2022-12-15 21:46:41.417488+00:00
+- model: cinema.ticket
+  pk: 143
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417506+00:00
+    updated_at: 2022-12-15 21:46:41.417512+00:00
+- model: cinema.ticket
+  pk: 144
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417528+00:00
+    updated_at: 2022-12-15 21:46:41.417534+00:00
+- model: cinema.ticket
+  pk: 145
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417551+00:00
+    updated_at: 2022-12-15 21:46:41.417558+00:00
+- model: cinema.ticket
+  pk: 146
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417575+00:00
+    updated_at: 2022-12-15 21:46:41.417582+00:00
+- model: cinema.ticket
+  pk: 147
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417599+00:00
+    updated_at: 2022-12-15 21:46:41.417605+00:00
+- model: cinema.ticket
+  pk: 148
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417622+00:00
+    updated_at: 2022-12-15 21:46:41.417629+00:00
+- model: cinema.ticket
+  pk: 149
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417645+00:00
+    updated_at: 2022-12-15 21:46:41.417651+00:00
+- model: cinema.ticket
+  pk: 150
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417667+00:00
+    updated_at: 2022-12-15 21:46:41.417672+00:00
+- model: cinema.ticket
+  pk: 151
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417688+00:00
+    updated_at: 2022-12-15 21:46:41.417695+00:00
+- model: cinema.ticket
+  pk: 152
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417712+00:00
+    updated_at: 2022-12-15 21:46:41.417718+00:00
+- model: cinema.ticket
+  pk: 153
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417734+00:00
+    updated_at: 2022-12-15 21:46:41.417739+00:00
+- model: cinema.ticket
+  pk: 154
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417755+00:00
+    updated_at: 2022-12-15 21:46:41.417762+00:00
+- model: cinema.ticket
+  pk: 155
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417778+00:00
+    updated_at: 2022-12-15 21:46:41.417784+00:00
+- model: cinema.ticket
+  pk: 156
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 16
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417799+00:00
+    updated_at: 2022-12-15 21:46:41.417805+00:00
+- model: cinema.ticket
+  pk: 157
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417821+00:00
+    updated_at: 2022-12-15 21:46:41.417827+00:00
+- model: cinema.ticket
+  pk: 158
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417843+00:00
+    updated_at: 2022-12-15 21:46:41.417848+00:00
+- model: cinema.ticket
+  pk: 159
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 19
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417864+00:00
+    updated_at: 2022-12-15 21:46:41.417869+00:00
+- model: cinema.ticket
+  pk: 160
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 20
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417885+00:00
+    updated_at: 2022-12-15 21:46:41.417891+00:00
+- model: cinema.ticket
+  pk: 161
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 21
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417906+00:00
+    updated_at: 2022-12-15 21:46:41.417911+00:00
+- model: cinema.ticket
+  pk: 162
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 22
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417926+00:00
+    updated_at: 2022-12-15 21:46:41.417932+00:00
+- model: cinema.ticket
+  pk: 163
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 23
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417946+00:00
+    updated_at: 2022-12-15 21:46:41.417952+00:00
+- model: cinema.ticket
+  pk: 164
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 24
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417967+00:00
+    updated_at: 2022-12-15 21:46:41.417973+00:00
+- model: cinema.ticket
+  pk: 165
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 25
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417988+00:00
+    updated_at: 2022-12-15 21:46:41.417994+00:00
+- model: cinema.ticket
+  pk: 166
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 26
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418009+00:00
+    updated_at: 2022-12-15 21:46:41.418015+00:00
+- model: cinema.ticket
+  pk: 167
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 27
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418030+00:00
+    updated_at: 2022-12-15 21:46:41.418036+00:00
+- model: cinema.ticket
+  pk: 168
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 28
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418051+00:00
+    updated_at: 2023-04-02 12:45:51.923407+00:00
+- model: cinema.ticket
+  pk: 169
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 29
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418072+00:00
+    updated_at: 2023-04-02 12:45:51.920612+00:00
+- model: cinema.ticket
+  pk: 170
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 30
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418093+00:00
+    updated_at: 2023-04-02 12:45:51.917278+00:00
+- model: cinema.ticket
+  pk: 171
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878797+00:00
+    updated_at: 2023-05-04 18:50:31.878827+00:00
+- model: cinema.ticket
+  pk: 172
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878868+00:00
+    updated_at: 2023-05-04 18:50:31.878881+00:00
+- model: cinema.ticket
+  pk: 173
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878917+00:00
+    updated_at: 2023-05-04 18:50:31.878928+00:00
+- model: cinema.ticket
+  pk: 174
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878962+00:00
+    updated_at: 2023-05-04 18:50:31.878973+00:00
+- model: cinema.ticket
+  pk: 175
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879004+00:00
+    updated_at: 2023-05-04 18:50:31.879076+00:00
+- model: cinema.ticket
+  pk: 176
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879128+00:00
+    updated_at: 2023-05-04 18:50:31.879141+00:00
+- model: cinema.ticket
+  pk: 177
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879173+00:00
+    updated_at: 2023-05-04 18:50:31.879183+00:00
+- model: cinema.ticket
+  pk: 178
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879215+00:00
+    updated_at: 2023-05-04 18:50:31.879226+00:00
+- model: cinema.ticket
+  pk: 179
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879253+00:00
+    updated_at: 2023-05-04 18:50:31.879264+00:00
+- model: cinema.ticket
+  pk: 180
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879293+00:00
+    updated_at: 2023-05-04 18:50:31.879304+00:00
+- model: cinema.ticket
+  pk: 181
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.576927+00:00
+    updated_at: 2023-05-04 18:53:13.576958+00:00
+- model: cinema.ticket
+  pk: 182
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.576995+00:00
+    updated_at: 2023-05-04 18:53:13.577005+00:00
+- model: cinema.ticket
+  pk: 183
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577031+00:00
+    updated_at: 2023-05-04 18:53:13.577058+00:00
+- model: cinema.ticket
+  pk: 184
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577095+00:00
+    updated_at: 2023-05-04 18:53:13.577104+00:00
+- model: cinema.ticket
+  pk: 185
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577131+00:00
+    updated_at: 2023-05-04 18:53:13.577141+00:00
+- model: cinema.ticket
+  pk: 186
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577167+00:00
+    updated_at: 2023-05-04 18:53:13.577176+00:00
+- model: cinema.ticket
+  pk: 187
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577200+00:00
+    updated_at: 2023-05-04 18:53:13.577212+00:00
+- model: cinema.ticket
+  pk: 188
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577239+00:00
+    updated_at: 2023-05-04 18:53:13.577249+00:00
+- model: cinema.ticket
+  pk: 189
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577272+00:00
+    updated_at: 2023-05-04 18:53:13.577280+00:00
+- model: cinema.ticket
+  pk: 190
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577303+00:00
+    updated_at: 2023-05-04 18:53:13.577311+00:00
+- model: cinema.ticket
+  pk: 191
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.103990+00:00
+    updated_at: 2023-05-04 21:56:52.104030+00:00
+- model: cinema.ticket
+  pk: 192
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104085+00:00
+    updated_at: 2023-05-04 21:56:52.104105+00:00
+- model: cinema.ticket
+  pk: 193
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104154+00:00
+    updated_at: 2023-05-04 21:56:52.104171+00:00
+- model: cinema.ticket
+  pk: 194
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104217+00:00
+    updated_at: 2023-05-04 21:56:52.104234+00:00
+- model: cinema.ticket
+  pk: 195
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104308+00:00
+    updated_at: 2023-05-04 21:56:52.104330+00:00
+- model: cinema.ticket
+  pk: 196
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104378+00:00
+    updated_at: 2023-05-04 21:56:52.104398+00:00
+- model: cinema.ticket
+  pk: 197
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104444+00:00
+    updated_at: 2023-05-04 21:56:52.104460+00:00
+- model: cinema.ticket
+  pk: 198
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104513+00:00
+    updated_at: 2023-05-04 21:56:52.104532+00:00
+- model: cinema.ticket
+  pk: 199
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.105216+00:00
+    updated_at: 2023-05-04 21:56:52.105977+00:00
+- model: cinema.ticket
+  pk: 200
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.106326+00:00
+    updated_at: 2023-05-04 21:56:52.106359+00:00
+- model: cinema.ticket
+  pk: 201
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164724+00:00
+    updated_at: 2023-05-04 22:05:34.164751+00:00
+- model: cinema.ticket
+  pk: 202
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164804+00:00
+    updated_at: 2023-05-04 22:05:34.164816+00:00
+- model: cinema.ticket
+  pk: 203
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164895+00:00
+    updated_at: 2023-05-04 22:05:34.164919+00:00
+- model: cinema.ticket
+  pk: 204
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164975+00:00
+    updated_at: 2023-05-04 22:05:34.165061+00:00
+- model: cinema.ticket
+  pk: 205
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165142+00:00
+    updated_at: 2023-05-04 22:05:34.165166+00:00
+- model: cinema.ticket
+  pk: 206
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165230+00:00
+    updated_at: 2023-05-04 22:05:34.165254+00:00
+- model: cinema.ticket
+  pk: 207
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165320+00:00
+    updated_at: 2023-05-04 22:05:34.165349+00:00
+- model: cinema.ticket
+  pk: 208
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165412+00:00
+    updated_at: 2023-05-04 22:05:34.165442+00:00
+- model: cinema.ticket
+  pk: 209
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165506+00:00
+    updated_at: 2023-05-04 22:05:34.165522+00:00
+- model: cinema.ticket
+  pk: 210
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165558+00:00
+    updated_at: 2023-05-04 22:05:34.165570+00:00
+- model: admin.logentry
+  pk: 1
+  fields:
+    action_time: 2023-05-04 18:48:28.635576+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 2
+  fields:
+    action_time: 2023-05-04 18:48:36.550819+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 3
+  fields:
+    action_time: 2023-05-04 18:50:14.864883+00:00
+    user: 1
+    content_type: 4
+    object_id: '6'
+    object_repr: Avengers
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 4
+  fields:
+    action_time: 2023-05-04 18:50:31.880601+00:00
+    user: 1
+    content_type: 6
+    object_id: '7'
+    object_repr: 'London: Screen 1: Avengers'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 5
+  fields:
+    action_time: 2023-05-04 18:52:43.674764+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 6
+  fields:
+    action_time: 2023-05-04 18:53:13.578540+00:00
+    user: 1
+    content_type: 6
+    object_id: '8'
+    object_repr: 'London: screen 2: interstellar'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 7
+  fields:
+    action_time: 2023-05-04 21:48:49.068771+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 8
+  fields:
+    action_time: 2023-05-04 21:48:49.086267+00:00
+    user: 1
+    content_type: 4
+    object_id: '4'
+    object_repr: The Green Mile
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 9
+  fields:
+    action_time: 2023-05-04 21:48:49.093924+00:00
+    user: 1
+    content_type: 4
+    object_id: '1'
+    object_repr: Start Trek
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 10
+  fields:
+    action_time: 2023-05-04 21:49:49.047191+00:00
+    user: 1
+    content_type: 5
+    object_id: '1'
+    object_repr: UWE Frenchay Campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location"]}}]'
+- model: admin.logentry
+  pk: 11
+  fields:
+    action_time: 2023-05-04 21:49:50.626097+00:00
+    user: 1
+    content_type: 5
+    object_id: '1'
+    object_repr: UWE Frenchay Campus
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 12
+  fields:
+    action_time: 2023-05-04 21:50:20.760483+00:00
+    user: 1
+    content_type: 5
+    object_id: '2'
+    object_repr: UWE Glenside campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location"]}}]'
+- model: admin.logentry
+  pk: 13
+  fields:
+    action_time: 2023-05-04 21:50:58.087420+00:00
+    user: 1
+    content_type: 5
+    object_id: '3'
+    object_repr: UWE Bower Ashton city campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location", "Active"]}}]'
+- model: admin.logentry
+  pk: 14
+  fields:
+    action_time: 2023-05-04 21:54:09.651228+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: Top Gun
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 15
+  fields:
+    action_time: 2023-05-04 21:54:20.491273+00:00
+    user: 1
+    content_type: 4
+    object_id: '3'
+    object_repr: Inactive
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 16
+  fields:
+    action_time: 2023-05-04 21:56:17.543951+00:00
+    user: 1
+    content_type: 4
+    object_id: '8'
+    object_repr: Batman v Superman
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 17
+  fields:
+    action_time: 2023-05-04 21:56:52.108730+00:00
+    user: 1
+    content_type: 6
+    object_id: '9'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: Batman v Superman'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 18
+  fields:
+    action_time: 2023-05-04 22:04:28.966931+00:00
+    user: 1
+    content_type: 4
+    object_id: '9'
+    object_repr: sus
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 19
+  fields:
+    action_time: 2023-05-04 22:05:34.167292+00:00
+    user: 1
+    content_type: 6
+    object_id: '10'
+    object_repr: 'UWE Glenside campus: screen 1B: sus'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 20
+  fields:
+    action_time: 2023-05-04 22:10:03.532624+00:00
+    user: 1
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 21
+  fields:
+    action_time: 2023-05-04 22:10:43.914503+00:00
+    user: 1
+    content_type: 1
+    object_id: '3'
+    object_repr: club_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add user
+    content_type: 1
+    codename: add_user
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change user
+    content_type: 1
+    codename: change_user
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete user
+    content_type: 1
+    codename: delete_user
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view user
+    content_type: 1
+    codename: view_user
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add category
+    content_type: 2
+    codename: add_category
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change category
+    content_type: 2
+    codename: change_category
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete category
+    content_type: 2
+    codename: delete_category
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view category
+    content_type: 2
+    codename: view_category
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add customer
+    content_type: 3
+    codename: add_customer
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change customer
+    content_type: 3
+    codename: change_customer
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete customer
+    content_type: 3
+    codename: delete_customer
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view customer
+    content_type: 3
+    codename: view_customer
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add movie
+    content_type: 4
+    codename: add_movie
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change movie
+    content_type: 4
+    codename: change_movie
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete movie
+    content_type: 4
+    codename: delete_movie
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view movie
+    content_type: 4
+    codename: view_movie
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add theater
+    content_type: 5
+    codename: add_theater
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change theater
+    content_type: 5
+    codename: change_theater
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete theater
+    content_type: 5
+    codename: delete_theater
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view theater
+    content_type: 5
+    codename: view_theater
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add screen
+    content_type: 6
+    codename: add_screen
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change screen
+    content_type: 6
+    codename: change_screen
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete screen
+    content_type: 6
+    codename: delete_screen
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view screen
+    content_type: 6
+    codename: view_screen
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add ticket
+    content_type: 7
+    codename: add_ticket
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change ticket
+    content_type: 7
+    codename: change_ticket
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete ticket
+    content_type: 7
+    codename: delete_ticket
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view ticket
+    content_type: 7
+    codename: view_ticket
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add log entry
+    content_type: 8
+    codename: add_logentry
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change log entry
+    content_type: 8
+    codename: change_logentry
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete log entry
+    content_type: 8
+    codename: delete_logentry
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view log entry
+    content_type: 8
+    codename: view_logentry
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add permission
+    content_type: 9
+    codename: add_permission
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change permission
+    content_type: 9
+    codename: change_permission
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete permission
+    content_type: 9
+    codename: delete_permission
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view permission
+    content_type: 9
+    codename: view_permission
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add group
+    content_type: 10
+    codename: add_group
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change group
+    content_type: 10
+    codename: change_group
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete group
+    content_type: 10
+    codename: delete_group
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view group
+    content_type: 10
+    codename: view_group
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add content type
+    content_type: 11
+    codename: add_contenttype
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change content type
+    content_type: 11
+    codename: change_contenttype
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete content type
+    content_type: 11
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view content type
+    content_type: 11
+    codename: view_contenttype
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add session
+    content_type: 12
+    codename: add_session
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change session
+    content_type: 12
+    codename: change_session
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete session
+    content_type: 12
+    codename: delete_session
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view session
+    content_type: 12
+    codename: view_session
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can buy ticket
+    content_type: 7
+    codename: buy_ticket
+- model: auth.group
+  pk: 1
+  fields:
+    name: Cinema Manager
+    is_active: true
+    permissions:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 4
+- model: auth.group
+  pk: 2
+  fields:
+    name: Club Manager
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: auth.group
+  pk: 3
+  fields:
+    name: Student
+    is_active: true
+    permissions: []
+- model: auth.group
+  pk: 4
+  fields:
+    name: Customer
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: cinema
+    model: user
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: cinema
+    model: category
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: cinema
+    model: customer
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: cinema
+    model: movie
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: cinema
+    model: theater
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: cinema
+    model: screen
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: cinema
+    model: ticket
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: sessions
+    model: session
+- model: sessions.session
+  pk: t04szexmn1e7snljc3h3lktj2fj8w1uz
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hBokTIu3fcMZJiZStVAUtqV8e7apAvd_vfef6mI25rj1mSJM6uLsur0uyWkh5Qd8B3LrWqqZV3mpHdFH7TpsbI8r4f7d5Cx5W_tORnjXJKB0MgZA6MXkC4F2zuBDhM4SyCmJ7JiQJgm8AaC9c4OblLvD_zgODE:1pudtM:Lr-W55kaNS8mQ7DBGuY00vNWlcnAzfIxdL88JKBkwp4
+    expire_date: 2023-05-18 18:41:24.747654+00:00
+- model: cinema.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-05-05 02:22:50.041685+00:00
+    is_superuser: true
+    username: superuser
+    first_name: Superuser
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:22:34+00:00
+    email: superuser@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '5000.00'
+    created_at: 2022-12-15 17:41:28+00:00
+    updated_at: 2023-04-02 08:15:46.074994+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:25+00:00
+    is_superuser: false
+    username: cinema_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:49:32+00:00
+    email: cinema_manager1@example.com
+    role: CINEMA_MANAGER
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '50000.00'
+    balance_currency: GBP
+    balance: '2000.00'
+    created_at: 2022-12-15 20:49:32.730002+00:00
+    updated_at: 2023-05-04 22:10:03.515845+00:00
+    groups:
+    - 1
+    user_permissions:
+    - 29
+    - 30
+    - 31
+    - 32
+    - 37
+    - 38
+    - 39
+    - 40
+    - 33
+    - 34
+    - 35
+    - 36
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 1
+    - 2
+    - 3
+    - 4
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+- model: cinema.user
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: 2023-04-02 12:45:39+00:00
+    is_superuser: false
+    username: club_manager1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2022-12-15 20:52:37+00:00
+    email: club_manager1@example.com
+    role: CLUB_MANAGER
+    date_of_birth: 2003-04-01
+    phone: '+447975777666'
+    land_phone: null
+    country: null
+    city: London
+    address: 10 Green Lane
+    postal_code: N76 1UI
+    salary_currency: GBP
+    salary: '50000.00'
+    balance_currency: GBP
+    balance: '878.50'
+    created_at: 2022-12-15 20:52:37.562841+00:00
+    updated_at: 2023-05-04 22:10:43.904023+00:00
+    groups:
+    - 2
+    user_permissions:
+    - 29
+- model: cinema.user
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: security1
+    first_name: ''
+    last_name: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2022-12-15 20:56:42+00:00
+    email: security1@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '40000.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 20:56:42.963414+00:00
+    updated_at: 2022-12-15 20:58:14.230041+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 6
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: janitor1
+    first_name: ''
+    last_name: ''
+    is_staff: false
+    is_active: true
+    date_joined: 2022-12-15 20:57:26+00:00
+    email: janitor1@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '35000.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 20:57:26.157139+00:00
+    updated_at: 2022-12-15 20:58:26.545558+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$390000$tRbjMHojSSM7tf50rKIc8c$ZRxYO48eHJ6sa9Av+gFQ0ZYcOpApFvzcauaXACWIX9U=
+    last_login: null
+    is_superuser: false
+    username: inactive
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: false
+    date_joined: 2022-12-15 21:08:14+00:00
+    email: inactive@example.com
+    role: null
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2022-12-15 21:08:14.178035+00:00
+    updated_at: 2022-12-15 21:08:38.755812+00:00
+    groups: []
+    user_permissions: []
+- model: cinema.user
+  pk: 8
+  fields:
+    password: pbkdf2_sha256$390000$b8ZPAwtlCykwPovDZtBOiU$xtZQi7lmT/Zp36ER5WL0MFFAsxNX1h3i897K+sIhPkA=
+    last_login: null
+    is_superuser: false
+    username: customer1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:06:51.778498+00:00
+    email: customer1@example.com
+    role: CUSTOMER
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '500.00'
+    created_at: 2023-04-02 13:06:51.849176+00:00
+    updated_at: 2023-04-02 13:06:51.849184+00:00
+    groups:
+    - 4
+    user_permissions: []
+- model: cinema.user
+  pk: 9
+  fields:
+    password: pbkdf2_sha256$390000$ELunrMBt4mlNmK7KBpxafq$2/gC+ZGjov+7B4D4DpxyTsZktxCpGBbOv4QUHrT9JUE=
+    last_login: null
+    is_superuser: false
+    username: student1
+    first_name: ''
+    last_name: ''
+    is_staff: true
+    is_active: true
+    date_joined: 2023-04-02 13:07:21.201013+00:00
+    email: student1@example.com
+    role: STUDENT
+    date_of_birth: null
+    phone: null
+    land_phone: null
+    country: null
+    city: null
+    address: null
+    postal_code: null
+    salary_currency: GBP
+    salary: '0.00'
+    balance_currency: GBP
+    balance: '0.00'
+    created_at: 2023-04-02 13:07:21.274011+00:00
+    updated_at: 2023-04-02 13:07:21.274019+00:00
+    groups:
+    - 3
+    user_permissions: []
+- model: cinema.theater
+  pk: 1
+  fields:
+    name: UWE Frenchay Campus
+    location: Stoke Gifford, Bristol BS16 1YN
+    is_active: true
+    created_at: 2022-12-15 20:33:45.246591+00:00
+    updated_at: 2023-05-04 21:49:50.622104+00:00
+- model: cinema.theater
+  pk: 2
+  fields:
+    name: UWE Glenside campus
+    location: Blackberry Hill, Stapleton, Bristol BS16 1DD
+    is_active: true
+    created_at: 2022-12-15 21:02:25.079346+00:00
+    updated_at: 2023-05-04 21:50:20.758811+00:00
+- model: cinema.theater
+  pk: 3
+  fields:
+    name: UWE Bower Ashton city campus
+    location: Kennel Lodge Rd, Bristol BS3 2JT
+    is_active: true
+    created_at: 2022-12-15 21:07:34.577768+00:00
+    updated_at: 2023-05-04 21:50:58.085180+00:00
+- model: cinema.category
+  pk: 1
+  fields:
+    name: Science Fiction
+    is_active: true
+- model: cinema.category
+  pk: 2
+  fields:
+    name: Comedy
+    is_active: true
+- model: cinema.category
+  pk: 3
+  fields:
+    name: Action
+    is_active: true
+- model: cinema.category
+  pk: 4
+  fields:
+    name: Inactive
+    is_active: false
+- model: cinema.category
+  pk: 5
+  fields:
+    name: Drama
+    is_active: true
+- model: cinema.movie
+  pk: 3
+  fields:
+    category: 1
+    name: Inactive
+    description: Description of an inactive movie.
+    image: ''
+    duration: 02:00:00
+    release_date: 2023-03-31
+    age_rating: G
+    starts_at: 2022-12-24 19:03:59+00:00
+    ends_at: 2022-12-24 21:04:01+00:00
+    is_active: false
+    created_by: 1
+    created_at: 2022-12-15 21:04:11.818911+00:00
+    updated_at: 2023-03-31 17:45:21.789755+00:00
+- model: cinema.movie
+  pk: 6
+  fields:
+    category: 3
+    name: 'Avengers: Infinity War'
+    description: Soemthinf tandom
+    image: cinema/static/storage/av1.jpg
+    duration: 02:00:00
+    release_date: 2022-05-04
+    age_rating: PG
+    starts_at: 2022-05-04 18:50:01+00:00
+    ends_at: 2024-05-04 18:50:10+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 18:50:14.863396+00:00
+    updated_at: 2023-05-05 02:38:55.753846+00:00
+- model: cinema.movie
+  pk: 7
+  fields:
+    category: 5
+    name: Interstellar
+    description: some des
+    image: cinema/static/storage/62259_poster_148037241838.jpg
+    duration: 02:54:45
+    release_date: 2022-05-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 18:52:37+00:00
+    ends_at: 2024-05-04 18:52:39+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 18:52:43.672616+00:00
+    updated_at: 2023-05-05 02:39:11.181850+00:00
+- model: cinema.movie
+  pk: 8
+  fields:
+    category: 3
+    name: Batman v Superman
+    description: some dev
+    image: cinema/static/storage/batvsup.jpg
+    duration: 03:45:00
+    release_date: 2022-02-04
+    age_rating: PG-13
+    starts_at: 2023-05-04 21:55:57+00:00
+    ends_at: 2023-11-04 21:55:59+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-04 21:56:17.542104+00:00
+    updated_at: 2023-05-04 21:56:17.542130+00:00
+- model: cinema.movie
+  pk: 10
+  fields:
+    category: 1
+    name: 'Avengers: Endgame'
+    description: Some description
+    image: cinema/static/storage/avg2.jpg
+    duration: 02:46:00
+    release_date: 2022-12-05
+    age_rating: PG
+    starts_at: 2022-02-05 02:26:51+00:00
+    ends_at: 2024-02-05 02:27:06+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-05 02:27:21.948809+00:00
+    updated_at: 2023-05-05 02:27:21.948856+00:00
+- model: cinema.movie
+  pk: 11
+  fields:
+    category: 5
+    name: Fast and Furious 7
+    description: des
+    image: cinema/static/storage/ff7.jpg
+    duration: 02:43:00
+    release_date: 2014-05-05
+    age_rating: PG
+    starts_at: 2022-05-05 02:32:41+00:00
+    ends_at: 2025-05-05 02:32:43+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-05 02:33:11.057043+00:00
+    updated_at: 2023-05-05 02:34:52.676444+00:00
+- model: cinema.movie
+  pk: 12
+  fields:
+    category: 5
+    name: Inception
+    description: INS
+    image: cinema/static/storage/inv.jpg
+    duration: 02:45:00
+    release_date: 2012-05-05
+    age_rating: PG-13
+    starts_at: 2022-05-05 02:35:56+00:00
+    ends_at: 2023-09-05 02:35:57+00:00
+    is_active: true
+    created_by: 1
+    created_at: 2023-05-05 02:36:31.417150+00:00
+    updated_at: 2023-05-05 02:37:57.571824+00:00
+- model: cinema.screen
+  pk: 1
+  fields:
+    theater: 1
+    movie: null
+    name: VIP 1
+    type: VIP
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 20:46:04.608442+00:00
+    updated_at: 2022-12-15 21:29:50.572793+00:00
+- model: cinema.screen
+  pk: 2
+  fields:
+    theater: 1
+    movie: null
+    name: VIP 2
+    type: VIP
+    total_seats: 20
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:12:04.967905+00:00
+    updated_at: 2022-12-15 21:25:13.257180+00:00
+- model: cinema.screen
+  pk: 3
+  fields:
+    theater: 1
+    movie: null
+    name: Inactive
+    type: VIP
+    total_seats: 10
+    is_active: false
+    is_occupied: false
+    created_at: 2022-12-15 21:13:50.205508+00:00
+    updated_at: 2022-12-15 21:23:25.155653+00:00
+- model: cinema.screen
+  pk: 4
+  fields:
+    theater: 1
+    movie: null
+    name: Public 1
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:24:20.951762+00:00
+    updated_at: 2022-12-15 21:46:10.022437+00:00
+- model: cinema.screen
+  pk: 5
+  fields:
+    theater: 1
+    movie: null
+    name: Public 2
+    type: PUBLIC
+    total_seats: 15
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:24:49.692642+00:00
+    updated_at: 2022-12-15 21:46:22.069327+00:00
+- model: cinema.screen
+  pk: 6
+  fields:
+    theater: 2
+    movie: 6
+    name: VIP 1
+    type: VIP
+    total_seats: 30
+    is_active: true
+    is_occupied: true
+    created_at: 2022-12-15 21:31:24.276906+00:00
+    updated_at: 2023-05-05 02:30:45.334059+00:00
+- model: cinema.screen
+  pk: 7
+  fields:
+    theater: 1
+    movie: 6
+    name: Screen 1
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 18:50:31.874487+00:00
+    updated_at: 2023-05-04 18:50:31.874533+00:00
+- model: cinema.screen
+  pk: 8
+  fields:
+    theater: 1
+    movie: 7
+    name: screen 2
+    type: VIP
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 18:53:13.573708+00:00
+    updated_at: 2023-05-04 18:53:13.573746+00:00
+- model: cinema.screen
+  pk: 9
+  fields:
+    theater: 1
+    movie: 8
+    name: Screen 3A
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 21:56:52.099744+00:00
+    updated_at: 2023-05-04 21:56:52.099770+00:00
+- model: cinema.screen
+  pk: 10
+  fields:
+    theater: 2
+    movie: 8
+    name: screen 1B
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-04 22:05:34.161894+00:00
+    updated_at: 2023-05-05 02:31:06.357628+00:00
+- model: cinema.screen
+  pk: 11
+  fields:
+    theater: 1
+    movie: 10
+    name: Screen 4A
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 02:27:43.355953+00:00
+    updated_at: 2023-05-05 02:27:43.355978+00:00
+- model: cinema.screen
+  pk: 13
+  fields:
+    theater: 2
+    movie: 11
+    name: Screen2B
+    type: VIP
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 02:34:24.826519+00:00
+    updated_at: 2023-05-05 02:34:24.826546+00:00
+- model: cinema.screen
+  pk: 14
+  fields:
+    theater: 3
+    movie: 12
+    name: screen 3A
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 02:37:37.146645+00:00
+    updated_at: 2023-05-05 02:37:37.146703+00:00
+- model: cinema.screen
+  pk: 15
+  fields:
+    theater: 3
+    movie: 6
+    name: Screen 3B
+    type: PUBLIC
+    total_seats: 10
+    is_active: true
+    is_occupied: true
+    created_at: 2023-05-05 02:40:06.896296+00:00
+    updated_at: 2023-05-05 02:40:06.896351+00:00
+- model: cinema.ticket
+  pk: 1
+  fields:
+    screen: 1
+    customer: 1
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 20:46:49.083825+00:00
+    created_at: 2022-12-15 20:46:04.610821+00:00
+    updated_at: 2022-12-15 20:46:49.083910+00:00
+- model: cinema.ticket
+  pk: 2
+  fields:
+    screen: 1
+    customer: 2
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 20:46:49.083825+00:00
+    created_at: 2022-12-15 20:46:04.610875+00:00
+    updated_at: 2022-12-15 20:46:04.610883+00:00
+- model: cinema.ticket
+  pk: 3
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610903+00:00
+    updated_at: 2022-12-15 20:46:04.610909+00:00
+- model: cinema.ticket
+  pk: 4
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610926+00:00
+    updated_at: 2022-12-15 20:46:04.610933+00:00
+- model: cinema.ticket
+  pk: 5
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610951+00:00
+    updated_at: 2022-12-15 20:46:04.610958+00:00
+- model: cinema.ticket
+  pk: 6
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.610983+00:00
+    updated_at: 2022-12-15 20:46:04.610991+00:00
+- model: cinema.ticket
+  pk: 7
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611014+00:00
+    updated_at: 2022-12-15 20:46:04.611024+00:00
+- model: cinema.ticket
+  pk: 8
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611071+00:00
+    updated_at: 2022-12-15 20:46:04.611077+00:00
+- model: cinema.ticket
+  pk: 9
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611094+00:00
+    updated_at: 2022-12-15 20:46:04.611103+00:00
+- model: cinema.ticket
+  pk: 10
+  fields:
+    screen: 1
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 20:46:04.611123+00:00
+    updated_at: 2022-12-15 20:46:04.611130+00:00
+- model: cinema.ticket
+  pk: 11
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970041+00:00
+    updated_at: 2022-12-15 21:12:04.970056+00:00
+- model: cinema.ticket
+  pk: 12
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970073+00:00
+    updated_at: 2022-12-15 21:12:04.970078+00:00
+- model: cinema.ticket
+  pk: 13
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970091+00:00
+    updated_at: 2022-12-15 21:12:04.970097+00:00
+- model: cinema.ticket
+  pk: 14
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970109+00:00
+    updated_at: 2022-12-15 21:12:04.970114+00:00
+- model: cinema.ticket
+  pk: 15
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970129+00:00
+    updated_at: 2022-12-15 21:12:04.970133+00:00
+- model: cinema.ticket
+  pk: 16
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970150+00:00
+    updated_at: 2022-12-15 21:12:04.970156+00:00
+- model: cinema.ticket
+  pk: 17
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970168+00:00
+    updated_at: 2022-12-15 21:12:04.970173+00:00
+- model: cinema.ticket
+  pk: 18
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970184+00:00
+    updated_at: 2022-12-15 21:12:04.970189+00:00
+- model: cinema.ticket
+  pk: 19
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970201+00:00
+    updated_at: 2022-12-15 21:12:04.970206+00:00
+- model: cinema.ticket
+  pk: 20
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970219+00:00
+    updated_at: 2022-12-15 21:12:04.970224+00:00
+- model: cinema.ticket
+  pk: 21
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970237+00:00
+    updated_at: 2022-12-15 21:12:04.970241+00:00
+- model: cinema.ticket
+  pk: 22
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970253+00:00
+    updated_at: 2022-12-15 21:12:04.970258+00:00
+- model: cinema.ticket
+  pk: 23
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970270+00:00
+    updated_at: 2022-12-15 21:12:04.970274+00:00
+- model: cinema.ticket
+  pk: 24
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970286+00:00
+    updated_at: 2022-12-15 21:12:04.970291+00:00
+- model: cinema.ticket
+  pk: 25
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970303+00:00
+    updated_at: 2022-12-15 21:12:04.970308+00:00
+- model: cinema.ticket
+  pk: 26
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 16
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970320+00:00
+    updated_at: 2022-12-15 21:12:04.970325+00:00
+- model: cinema.ticket
+  pk: 27
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970336+00:00
+    updated_at: 2022-12-15 21:12:04.970341+00:00
+- model: cinema.ticket
+  pk: 28
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970352+00:00
+    updated_at: 2022-12-15 21:12:04.970357+00:00
+- model: cinema.ticket
+  pk: 29
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 19
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970369+00:00
+    updated_at: 2022-12-15 21:12:04.970373+00:00
+- model: cinema.ticket
+  pk: 30
+  fields:
+    screen: 2
+    customer: null
+    seat_number: 20
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:12:04.970385+00:00
+    updated_at: 2022-12-15 21:12:04.970389+00:00
+- model: cinema.ticket
+  pk: 116
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024587+00:00
+    updated_at: 2022-12-15 21:46:10.024603+00:00
+- model: cinema.ticket
+  pk: 117
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024615+00:00
+    updated_at: 2022-12-15 21:46:10.024619+00:00
+- model: cinema.ticket
+  pk: 118
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024630+00:00
+    updated_at: 2022-12-15 21:46:10.024633+00:00
+- model: cinema.ticket
+  pk: 119
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024643+00:00
+    updated_at: 2022-12-15 21:46:10.024647+00:00
+- model: cinema.ticket
+  pk: 120
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024657+00:00
+    updated_at: 2022-12-15 21:46:10.024660+00:00
+- model: cinema.ticket
+  pk: 121
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024682+00:00
+    updated_at: 2022-12-15 21:46:10.024686+00:00
+- model: cinema.ticket
+  pk: 122
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024695+00:00
+    updated_at: 2022-12-15 21:46:10.024699+00:00
+- model: cinema.ticket
+  pk: 123
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024708+00:00
+    updated_at: 2022-12-15 21:46:10.024711+00:00
+- model: cinema.ticket
+  pk: 124
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024720+00:00
+    updated_at: 2022-12-15 21:46:10.024724+00:00
+- model: cinema.ticket
+  pk: 125
+  fields:
+    screen: 4
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:10.024734+00:00
+    updated_at: 2022-12-15 21:46:10.024737+00:00
+- model: cinema.ticket
+  pk: 126
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.465992+00:00
+    updated_at: 2022-12-15 21:46:18.466010+00:00
+- model: cinema.ticket
+  pk: 127
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466034+00:00
+    updated_at: 2022-12-15 21:46:18.466042+00:00
+- model: cinema.ticket
+  pk: 128
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466063+00:00
+    updated_at: 2022-12-15 21:46:18.466070+00:00
+- model: cinema.ticket
+  pk: 129
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466087+00:00
+    updated_at: 2022-12-15 21:46:18.466094+00:00
+- model: cinema.ticket
+  pk: 130
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466112+00:00
+    updated_at: 2022-12-15 21:46:18.466119+00:00
+- model: cinema.ticket
+  pk: 131
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466137+00:00
+    updated_at: 2022-12-15 21:46:18.466173+00:00
+- model: cinema.ticket
+  pk: 132
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466192+00:00
+    updated_at: 2022-12-15 21:46:18.466199+00:00
+- model: cinema.ticket
+  pk: 133
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466247+00:00
+    updated_at: 2022-12-15 21:46:18.466255+00:00
+- model: cinema.ticket
+  pk: 134
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466273+00:00
+    updated_at: 2022-12-15 21:46:18.466279+00:00
+- model: cinema.ticket
+  pk: 135
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466298+00:00
+    updated_at: 2022-12-15 21:46:18.466307+00:00
+- model: cinema.ticket
+  pk: 136
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466324+00:00
+    updated_at: 2022-12-15 21:46:18.466331+00:00
+- model: cinema.ticket
+  pk: 137
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466347+00:00
+    updated_at: 2022-12-15 21:46:18.466354+00:00
+- model: cinema.ticket
+  pk: 138
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466372+00:00
+    updated_at: 2022-12-15 21:46:18.466379+00:00
+- model: cinema.ticket
+  pk: 139
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466396+00:00
+    updated_at: 2022-12-15 21:46:18.466402+00:00
+- model: cinema.ticket
+  pk: 140
+  fields:
+    screen: 5
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:18.466419+00:00
+    updated_at: 2022-12-15 21:46:18.466425+00:00
+- model: cinema.ticket
+  pk: 141
+  fields:
+    screen: 6
+    customer: 2
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: 2022-12-15 21:54:39.917815+00:00
+    created_at: 2022-12-15 21:46:41.417395+00:00
+    updated_at: 2022-12-15 21:54:39.917955+00:00
+- model: cinema.ticket
+  pk: 142
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417481+00:00
+    updated_at: 2022-12-15 21:46:41.417488+00:00
+- model: cinema.ticket
+  pk: 143
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417506+00:00
+    updated_at: 2022-12-15 21:46:41.417512+00:00
+- model: cinema.ticket
+  pk: 144
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417528+00:00
+    updated_at: 2022-12-15 21:46:41.417534+00:00
+- model: cinema.ticket
+  pk: 145
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417551+00:00
+    updated_at: 2022-12-15 21:46:41.417558+00:00
+- model: cinema.ticket
+  pk: 146
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417575+00:00
+    updated_at: 2022-12-15 21:46:41.417582+00:00
+- model: cinema.ticket
+  pk: 147
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417599+00:00
+    updated_at: 2022-12-15 21:46:41.417605+00:00
+- model: cinema.ticket
+  pk: 148
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417622+00:00
+    updated_at: 2022-12-15 21:46:41.417629+00:00
+- model: cinema.ticket
+  pk: 149
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417645+00:00
+    updated_at: 2022-12-15 21:46:41.417651+00:00
+- model: cinema.ticket
+  pk: 150
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417667+00:00
+    updated_at: 2022-12-15 21:46:41.417672+00:00
+- model: cinema.ticket
+  pk: 151
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 11
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417688+00:00
+    updated_at: 2022-12-15 21:46:41.417695+00:00
+- model: cinema.ticket
+  pk: 152
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 12
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417712+00:00
+    updated_at: 2022-12-15 21:46:41.417718+00:00
+- model: cinema.ticket
+  pk: 153
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 13
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417734+00:00
+    updated_at: 2022-12-15 21:46:41.417739+00:00
+- model: cinema.ticket
+  pk: 154
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 14
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417755+00:00
+    updated_at: 2022-12-15 21:46:41.417762+00:00
+- model: cinema.ticket
+  pk: 155
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 15
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417778+00:00
+    updated_at: 2022-12-15 21:46:41.417784+00:00
+- model: cinema.ticket
+  pk: 156
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 16
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417799+00:00
+    updated_at: 2022-12-15 21:46:41.417805+00:00
+- model: cinema.ticket
+  pk: 157
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 17
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417821+00:00
+    updated_at: 2022-12-15 21:46:41.417827+00:00
+- model: cinema.ticket
+  pk: 158
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 18
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417843+00:00
+    updated_at: 2022-12-15 21:46:41.417848+00:00
+- model: cinema.ticket
+  pk: 159
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 19
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417864+00:00
+    updated_at: 2022-12-15 21:46:41.417869+00:00
+- model: cinema.ticket
+  pk: 160
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 20
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417885+00:00
+    updated_at: 2022-12-15 21:46:41.417891+00:00
+- model: cinema.ticket
+  pk: 161
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 21
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417906+00:00
+    updated_at: 2022-12-15 21:46:41.417911+00:00
+- model: cinema.ticket
+  pk: 162
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 22
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417926+00:00
+    updated_at: 2022-12-15 21:46:41.417932+00:00
+- model: cinema.ticket
+  pk: 163
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 23
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417946+00:00
+    updated_at: 2022-12-15 21:46:41.417952+00:00
+- model: cinema.ticket
+  pk: 164
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 24
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417967+00:00
+    updated_at: 2022-12-15 21:46:41.417973+00:00
+- model: cinema.ticket
+  pk: 165
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 25
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.417988+00:00
+    updated_at: 2022-12-15 21:46:41.417994+00:00
+- model: cinema.ticket
+  pk: 166
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 26
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418009+00:00
+    updated_at: 2022-12-15 21:46:41.418015+00:00
+- model: cinema.ticket
+  pk: 167
+  fields:
+    screen: 6
+    customer: null
+    seat_number: 27
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418030+00:00
+    updated_at: 2022-12-15 21:46:41.418036+00:00
+- model: cinema.ticket
+  pk: 168
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 28
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418051+00:00
+    updated_at: 2023-04-02 12:45:51.923407+00:00
+- model: cinema.ticket
+  pk: 169
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 29
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418072+00:00
+    updated_at: 2023-04-02 12:45:51.920612+00:00
+- model: cinema.ticket
+  pk: 170
+  fields:
+    screen: 6
+    customer: 3
+    seat_number: 30
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2022-12-15 21:46:41.418093+00:00
+    updated_at: 2023-04-02 12:45:51.917278+00:00
+- model: cinema.ticket
+  pk: 171
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878797+00:00
+    updated_at: 2023-05-04 18:50:31.878827+00:00
+- model: cinema.ticket
+  pk: 172
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878868+00:00
+    updated_at: 2023-05-04 18:50:31.878881+00:00
+- model: cinema.ticket
+  pk: 173
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878917+00:00
+    updated_at: 2023-05-04 18:50:31.878928+00:00
+- model: cinema.ticket
+  pk: 174
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.878962+00:00
+    updated_at: 2023-05-04 18:50:31.878973+00:00
+- model: cinema.ticket
+  pk: 175
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879004+00:00
+    updated_at: 2023-05-04 18:50:31.879076+00:00
+- model: cinema.ticket
+  pk: 176
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879128+00:00
+    updated_at: 2023-05-04 18:50:31.879141+00:00
+- model: cinema.ticket
+  pk: 177
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879173+00:00
+    updated_at: 2023-05-04 18:50:31.879183+00:00
+- model: cinema.ticket
+  pk: 178
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879215+00:00
+    updated_at: 2023-05-04 18:50:31.879226+00:00
+- model: cinema.ticket
+  pk: 179
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879253+00:00
+    updated_at: 2023-05-04 18:50:31.879264+00:00
+- model: cinema.ticket
+  pk: 180
+  fields:
+    screen: 7
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 18:50:31.879293+00:00
+    updated_at: 2023-05-04 18:50:31.879304+00:00
+- model: cinema.ticket
+  pk: 181
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.576927+00:00
+    updated_at: 2023-05-04 18:53:13.576958+00:00
+- model: cinema.ticket
+  pk: 182
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.576995+00:00
+    updated_at: 2023-05-04 18:53:13.577005+00:00
+- model: cinema.ticket
+  pk: 183
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577031+00:00
+    updated_at: 2023-05-04 18:53:13.577058+00:00
+- model: cinema.ticket
+  pk: 184
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577095+00:00
+    updated_at: 2023-05-04 18:53:13.577104+00:00
+- model: cinema.ticket
+  pk: 185
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577131+00:00
+    updated_at: 2023-05-04 18:53:13.577141+00:00
+- model: cinema.ticket
+  pk: 186
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577167+00:00
+    updated_at: 2023-05-04 18:53:13.577176+00:00
+- model: cinema.ticket
+  pk: 187
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577200+00:00
+    updated_at: 2023-05-04 18:53:13.577212+00:00
+- model: cinema.ticket
+  pk: 188
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577239+00:00
+    updated_at: 2023-05-04 18:53:13.577249+00:00
+- model: cinema.ticket
+  pk: 189
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577272+00:00
+    updated_at: 2023-05-04 18:53:13.577280+00:00
+- model: cinema.ticket
+  pk: 190
+  fields:
+    screen: 8
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-04 18:53:13.577303+00:00
+    updated_at: 2023-05-04 18:53:13.577311+00:00
+- model: cinema.ticket
+  pk: 191
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.103990+00:00
+    updated_at: 2023-05-04 21:56:52.104030+00:00
+- model: cinema.ticket
+  pk: 192
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104085+00:00
+    updated_at: 2023-05-04 21:56:52.104105+00:00
+- model: cinema.ticket
+  pk: 193
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104154+00:00
+    updated_at: 2023-05-04 21:56:52.104171+00:00
+- model: cinema.ticket
+  pk: 194
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104217+00:00
+    updated_at: 2023-05-04 21:56:52.104234+00:00
+- model: cinema.ticket
+  pk: 195
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104308+00:00
+    updated_at: 2023-05-04 21:56:52.104330+00:00
+- model: cinema.ticket
+  pk: 196
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104378+00:00
+    updated_at: 2023-05-04 21:56:52.104398+00:00
+- model: cinema.ticket
+  pk: 197
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104444+00:00
+    updated_at: 2023-05-04 21:56:52.104460+00:00
+- model: cinema.ticket
+  pk: 198
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.104513+00:00
+    updated_at: 2023-05-04 21:56:52.104532+00:00
+- model: cinema.ticket
+  pk: 199
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.105216+00:00
+    updated_at: 2023-05-04 21:56:52.105977+00:00
+- model: cinema.ticket
+  pk: 200
+  fields:
+    screen: 9
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 21:56:52.106326+00:00
+    updated_at: 2023-05-04 21:56:52.106359+00:00
+- model: cinema.ticket
+  pk: 201
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164724+00:00
+    updated_at: 2023-05-04 22:05:34.164751+00:00
+- model: cinema.ticket
+  pk: 202
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164804+00:00
+    updated_at: 2023-05-04 22:05:34.164816+00:00
+- model: cinema.ticket
+  pk: 203
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164895+00:00
+    updated_at: 2023-05-04 22:05:34.164919+00:00
+- model: cinema.ticket
+  pk: 204
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.164975+00:00
+    updated_at: 2023-05-04 22:05:34.165061+00:00
+- model: cinema.ticket
+  pk: 205
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165142+00:00
+    updated_at: 2023-05-04 22:05:34.165166+00:00
+- model: cinema.ticket
+  pk: 206
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165230+00:00
+    updated_at: 2023-05-04 22:05:34.165254+00:00
+- model: cinema.ticket
+  pk: 207
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165320+00:00
+    updated_at: 2023-05-04 22:05:34.165349+00:00
+- model: cinema.ticket
+  pk: 208
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165412+00:00
+    updated_at: 2023-05-04 22:05:34.165442+00:00
+- model: cinema.ticket
+  pk: 209
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165506+00:00
+    updated_at: 2023-05-04 22:05:34.165522+00:00
+- model: cinema.ticket
+  pk: 210
+  fields:
+    screen: 10
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-04 22:05:34.165558+00:00
+    updated_at: 2023-05-04 22:05:34.165570+00:00
+- model: cinema.ticket
+  pk: 211
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358769+00:00
+    updated_at: 2023-05-05 02:27:43.358794+00:00
+- model: cinema.ticket
+  pk: 212
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358827+00:00
+    updated_at: 2023-05-05 02:27:43.358836+00:00
+- model: cinema.ticket
+  pk: 213
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358863+00:00
+    updated_at: 2023-05-05 02:27:43.358872+00:00
+- model: cinema.ticket
+  pk: 214
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358897+00:00
+    updated_at: 2023-05-05 02:27:43.358906+00:00
+- model: cinema.ticket
+  pk: 215
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358929+00:00
+    updated_at: 2023-05-05 02:27:43.358938+00:00
+- model: cinema.ticket
+  pk: 216
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358961+00:00
+    updated_at: 2023-05-05 02:27:43.358969+00:00
+- model: cinema.ticket
+  pk: 217
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.358991+00:00
+    updated_at: 2023-05-05 02:27:43.358999+00:00
+- model: cinema.ticket
+  pk: 218
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.359022+00:00
+    updated_at: 2023-05-05 02:27:43.359045+00:00
+- model: cinema.ticket
+  pk: 219
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.359091+00:00
+    updated_at: 2023-05-05 02:27:43.359100+00:00
+- model: cinema.ticket
+  pk: 220
+  fields:
+    screen: 11
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:27:43.359124+00:00
+    updated_at: 2023-05-05 02:27:43.359132+00:00
+- model: cinema.ticket
+  pk: 231
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.831996+00:00
+    updated_at: 2023-05-05 02:34:24.832032+00:00
+- model: cinema.ticket
+  pk: 232
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832118+00:00
+    updated_at: 2023-05-05 02:34:24.832143+00:00
+- model: cinema.ticket
+  pk: 233
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832219+00:00
+    updated_at: 2023-05-05 02:34:24.832242+00:00
+- model: cinema.ticket
+  pk: 234
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832298+00:00
+    updated_at: 2023-05-05 02:34:24.832319+00:00
+- model: cinema.ticket
+  pk: 235
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832372+00:00
+    updated_at: 2023-05-05 02:34:24.832391+00:00
+- model: cinema.ticket
+  pk: 236
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832421+00:00
+    updated_at: 2023-05-05 02:34:24.832430+00:00
+- model: cinema.ticket
+  pk: 237
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832456+00:00
+    updated_at: 2023-05-05 02:34:24.832465+00:00
+- model: cinema.ticket
+  pk: 238
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832527+00:00
+    updated_at: 2023-05-05 02:34:24.832551+00:00
+- model: cinema.ticket
+  pk: 239
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832606+00:00
+    updated_at: 2023-05-05 02:34:24.832627+00:00
+- model: cinema.ticket
+  pk: 240
+  fields:
+    screen: 13
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '45.00'
+    issued_at: null
+    created_at: 2023-05-05 02:34:24.832683+00:00
+    updated_at: 2023-05-05 02:34:24.832704+00:00
+- model: cinema.ticket
+  pk: 241
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.151894+00:00
+    updated_at: 2023-05-05 02:37:37.151925+00:00
+- model: cinema.ticket
+  pk: 242
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.151967+00:00
+    updated_at: 2023-05-05 02:37:37.151981+00:00
+- model: cinema.ticket
+  pk: 243
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152017+00:00
+    updated_at: 2023-05-05 02:37:37.152028+00:00
+- model: cinema.ticket
+  pk: 244
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152061+00:00
+    updated_at: 2023-05-05 02:37:37.152073+00:00
+- model: cinema.ticket
+  pk: 245
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152105+00:00
+    updated_at: 2023-05-05 02:37:37.152117+00:00
+- model: cinema.ticket
+  pk: 246
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152149+00:00
+    updated_at: 2023-05-05 02:37:37.152160+00:00
+- model: cinema.ticket
+  pk: 247
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152192+00:00
+    updated_at: 2023-05-05 02:37:37.152203+00:00
+- model: cinema.ticket
+  pk: 248
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152234+00:00
+    updated_at: 2023-05-05 02:37:37.152247+00:00
+- model: cinema.ticket
+  pk: 249
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152280+00:00
+    updated_at: 2023-05-05 02:37:37.152292+00:00
+- model: cinema.ticket
+  pk: 250
+  fields:
+    screen: 14
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:37:37.152325+00:00
+    updated_at: 2023-05-05 02:37:37.152337+00:00
+- model: cinema.ticket
+  pk: 251
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 1
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898648+00:00
+    updated_at: 2023-05-05 02:40:06.898675+00:00
+- model: cinema.ticket
+  pk: 252
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 2
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898709+00:00
+    updated_at: 2023-05-05 02:40:06.898720+00:00
+- model: cinema.ticket
+  pk: 253
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 3
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898748+00:00
+    updated_at: 2023-05-05 02:40:06.898758+00:00
+- model: cinema.ticket
+  pk: 254
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 4
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898786+00:00
+    updated_at: 2023-05-05 02:40:06.898796+00:00
+- model: cinema.ticket
+  pk: 255
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 5
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898823+00:00
+    updated_at: 2023-05-05 02:40:06.898858+00:00
+- model: cinema.ticket
+  pk: 256
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 6
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898893+00:00
+    updated_at: 2023-05-05 02:40:06.898904+00:00
+- model: cinema.ticket
+  pk: 257
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 7
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898933+00:00
+    updated_at: 2023-05-05 02:40:06.898942+00:00
+- model: cinema.ticket
+  pk: 258
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 8
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.898969+00:00
+    updated_at: 2023-05-05 02:40:06.898979+00:00
+- model: cinema.ticket
+  pk: 259
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 9
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.899011+00:00
+    updated_at: 2023-05-05 02:40:06.899026+00:00
+- model: cinema.ticket
+  pk: 260
+  fields:
+    screen: 15
+    customer: null
+    seat_number: 10
+    price_currency: GBP
+    price: '10.00'
+    issued_at: null
+    created_at: 2023-05-05 02:40:06.899063+00:00
+    updated_at: 2023-05-05 02:40:06.899073+00:00
+- model: admin.logentry
+  pk: 1
+  fields:
+    action_time: 2023-05-04 18:48:28.635576+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 2
+  fields:
+    action_time: 2023-05-04 18:48:36.550819+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 3
+  fields:
+    action_time: 2023-05-04 18:50:14.864883+00:00
+    user: 1
+    content_type: 4
+    object_id: '6'
+    object_repr: Avengers
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 4
+  fields:
+    action_time: 2023-05-04 18:50:31.880601+00:00
+    user: 1
+    content_type: 6
+    object_id: '7'
+    object_repr: 'London: Screen 1: Avengers'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 5
+  fields:
+    action_time: 2023-05-04 18:52:43.674764+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 6
+  fields:
+    action_time: 2023-05-04 18:53:13.578540+00:00
+    user: 1
+    content_type: 6
+    object_id: '8'
+    object_repr: 'London: screen 2: interstellar'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 7
+  fields:
+    action_time: 2023-05-04 21:48:49.068771+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 8
+  fields:
+    action_time: 2023-05-04 21:48:49.086267+00:00
+    user: 1
+    content_type: 4
+    object_id: '4'
+    object_repr: The Green Mile
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 9
+  fields:
+    action_time: 2023-05-04 21:48:49.093924+00:00
+    user: 1
+    content_type: 4
+    object_id: '1'
+    object_repr: Start Trek
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 10
+  fields:
+    action_time: 2023-05-04 21:49:49.047191+00:00
+    user: 1
+    content_type: 5
+    object_id: '1'
+    object_repr: UWE Frenchay Campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location"]}}]'
+- model: admin.logentry
+  pk: 11
+  fields:
+    action_time: 2023-05-04 21:49:50.626097+00:00
+    user: 1
+    content_type: 5
+    object_id: '1'
+    object_repr: UWE Frenchay Campus
+    action_flag: 2
+    change_message: '[]'
+- model: admin.logentry
+  pk: 12
+  fields:
+    action_time: 2023-05-04 21:50:20.760483+00:00
+    user: 1
+    content_type: 5
+    object_id: '2'
+    object_repr: UWE Glenside campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location"]}}]'
+- model: admin.logentry
+  pk: 13
+  fields:
+    action_time: 2023-05-04 21:50:58.087420+00:00
+    user: 1
+    content_type: 5
+    object_id: '3'
+    object_repr: UWE Bower Ashton city campus
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name", "Location", "Active"]}}]'
+- model: admin.logentry
+  pk: 14
+  fields:
+    action_time: 2023-05-04 21:54:09.651228+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: Top Gun
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 15
+  fields:
+    action_time: 2023-05-04 21:54:20.491273+00:00
+    user: 1
+    content_type: 4
+    object_id: '3'
+    object_repr: Inactive
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 16
+  fields:
+    action_time: 2023-05-04 21:56:17.543951+00:00
+    user: 1
+    content_type: 4
+    object_id: '8'
+    object_repr: Batman v Superman
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 17
+  fields:
+    action_time: 2023-05-04 21:56:52.108730+00:00
+    user: 1
+    content_type: 6
+    object_id: '9'
+    object_repr: 'UWE Frenchay Campus: Screen 3A: Batman v Superman'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 18
+  fields:
+    action_time: 2023-05-04 22:04:28.966931+00:00
+    user: 1
+    content_type: 4
+    object_id: '9'
+    object_repr: sus
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 19
+  fields:
+    action_time: 2023-05-04 22:05:34.167292+00:00
+    user: 1
+    content_type: 6
+    object_id: '10'
+    object_repr: 'UWE Glenside campus: screen 1B: sus'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 20
+  fields:
+    action_time: 2023-05-04 22:10:03.532624+00:00
+    user: 1
+    content_type: 1
+    object_id: '2'
+    object_repr: cinema_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 21
+  fields:
+    action_time: 2023-05-04 22:10:43.914503+00:00
+    user: 1
+    content_type: 1
+    object_id: '3'
+    object_repr: club_manager1
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 22
+  fields:
+    action_time: 2023-05-05 02:24:52.762106+00:00
+    user: 1
+    content_type: 4
+    object_id: '9'
+    object_repr: sus
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 23
+  fields:
+    action_time: 2023-05-05 02:25:34.962134+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 24
+  fields:
+    action_time: 2023-05-05 02:25:42.361750+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: interstellar
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 25
+  fields:
+    action_time: 2023-05-05 02:27:21.952031+00:00
+    user: 1
+    content_type: 4
+    object_id: '10'
+    object_repr: 'Avengers: Endgame'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 26
+  fields:
+    action_time: 2023-05-05 02:27:43.360328+00:00
+    user: 1
+    content_type: 6
+    object_id: '11'
+    object_repr: 'UWE Frenchay Campus: Screen 4A: Avengers: Endgame'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 27
+  fields:
+    action_time: 2023-05-05 02:28:55.203393+00:00
+    user: 1
+    content_type: 6
+    object_id: '12'
+    object_repr: 'UWE Glenside campus: Screen1B: Star Wars'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 28
+  fields:
+    action_time: 2023-05-05 02:30:45.336489+00:00
+    user: 1
+    content_type: 6
+    object_id: '6'
+    object_repr: 'UWE Glenside campus: VIP 1: Avengers'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie"]}}]'
+- model: admin.logentry
+  pk: 29
+  fields:
+    action_time: 2023-05-05 02:31:06.361070+00:00
+    user: 1
+    content_type: 6
+    object_id: '10'
+    object_repr: 'UWE Glenside campus: screen 1B: Batman v Superman'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie"]}}]'
+- model: admin.logentry
+  pk: 30
+  fields:
+    action_time: 2023-05-05 02:33:11.058213+00:00
+    user: 1
+    content_type: 4
+    object_id: '11'
+    object_repr: Fast and Furious 7
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 31
+  fields:
+    action_time: 2023-05-05 02:33:43.736856+00:00
+    user: 1
+    content_type: 6
+    object_id: '12'
+    object_repr: 'UWE Glenside campus: Screen1B: Fast and Furious 7'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Movie"]}}]'
+- model: admin.logentry
+  pk: 32
+  fields:
+    action_time: 2023-05-05 02:34:08.677117+00:00
+    user: 1
+    content_type: 6
+    object_id: '12'
+    object_repr: 'UWE Glenside campus: Screen1B: Fast and Furious 7'
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 33
+  fields:
+    action_time: 2023-05-05 02:34:24.834712+00:00
+    user: 1
+    content_type: 6
+    object_id: '13'
+    object_repr: 'UWE Glenside campus: Screen2B: Fast and Furious 7'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 34
+  fields:
+    action_time: 2023-05-05 02:34:52.678355+00:00
+    user: 1
+    content_type: 4
+    object_id: '11'
+    object_repr: Fast and Furious 7
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 35
+  fields:
+    action_time: 2023-05-05 02:36:31.418315+00:00
+    user: 1
+    content_type: 4
+    object_id: '12'
+    object_repr: Inception
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 36
+  fields:
+    action_time: 2023-05-05 02:37:11.076484+00:00
+    user: 1
+    content_type: 4
+    object_id: '5'
+    object_repr: Star Wars
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 37
+  fields:
+    action_time: 2023-05-05 02:37:11.090473+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: Top Gun
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 38
+  fields:
+    action_time: 2023-05-05 02:37:11.101114+00:00
+    user: 1
+    content_type: 4
+    object_id: '1'
+    object_repr: Start Trek
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 39
+  fields:
+    action_time: 2023-05-05 02:37:37.154011+00:00
+    user: 1
+    content_type: 6
+    object_id: '14'
+    object_repr: 'UWE Bower Ashton city campus: screen 3A: Inception'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 40
+  fields:
+    action_time: 2023-05-05 02:37:57.574119+00:00
+    user: 1
+    content_type: 4
+    object_id: '12'
+    object_repr: Inception
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Image"]}}]'
+- model: admin.logentry
+  pk: 41
+  fields:
+    action_time: 2023-05-05 02:38:55.756293+00:00
+    user: 1
+    content_type: 4
+    object_id: '6'
+    object_repr: 'Avengers: Infinity War'
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Name"]}}]'
+- model: admin.logentry
+  pk: 42
+  fields:
+    action_time: 2023-05-05 02:39:11.183931+00:00
+    user: 1
+    content_type: 4
+    object_id: '7'
+    object_repr: Interstellar
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Category", "Name"]}}]'
+- model: admin.logentry
+  pk: 43
+  fields:
+    action_time: 2023-05-05 02:39:40.608060+00:00
+    user: 1
+    content_type: 4
+    object_id: '4'
+    object_repr: The Green Mile
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 44
+  fields:
+    action_time: 2023-05-05 02:40:06.900767+00:00
+    user: 1
+    content_type: 6
+    object_id: '15'
+    object_repr: 'UWE Bower Ashton city campus: Screen 3B: Avengers: Infinity War'
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add user
+    content_type: 1
+    codename: add_user
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change user
+    content_type: 1
+    codename: change_user
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete user
+    content_type: 1
+    codename: delete_user
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view user
+    content_type: 1
+    codename: view_user
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add category
+    content_type: 2
+    codename: add_category
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change category
+    content_type: 2
+    codename: change_category
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete category
+    content_type: 2
+    codename: delete_category
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view category
+    content_type: 2
+    codename: view_category
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add customer
+    content_type: 3
+    codename: add_customer
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change customer
+    content_type: 3
+    codename: change_customer
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete customer
+    content_type: 3
+    codename: delete_customer
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view customer
+    content_type: 3
+    codename: view_customer
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add movie
+    content_type: 4
+    codename: add_movie
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change movie
+    content_type: 4
+    codename: change_movie
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete movie
+    content_type: 4
+    codename: delete_movie
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view movie
+    content_type: 4
+    codename: view_movie
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add theater
+    content_type: 5
+    codename: add_theater
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change theater
+    content_type: 5
+    codename: change_theater
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete theater
+    content_type: 5
+    codename: delete_theater
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view theater
+    content_type: 5
+    codename: view_theater
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add screen
+    content_type: 6
+    codename: add_screen
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change screen
+    content_type: 6
+    codename: change_screen
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete screen
+    content_type: 6
+    codename: delete_screen
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view screen
+    content_type: 6
+    codename: view_screen
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add ticket
+    content_type: 7
+    codename: add_ticket
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change ticket
+    content_type: 7
+    codename: change_ticket
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete ticket
+    content_type: 7
+    codename: delete_ticket
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view ticket
+    content_type: 7
+    codename: view_ticket
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add log entry
+    content_type: 8
+    codename: add_logentry
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change log entry
+    content_type: 8
+    codename: change_logentry
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete log entry
+    content_type: 8
+    codename: delete_logentry
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view log entry
+    content_type: 8
+    codename: view_logentry
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add permission
+    content_type: 9
+    codename: add_permission
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change permission
+    content_type: 9
+    codename: change_permission
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete permission
+    content_type: 9
+    codename: delete_permission
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view permission
+    content_type: 9
+    codename: view_permission
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add group
+    content_type: 10
+    codename: add_group
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change group
+    content_type: 10
+    codename: change_group
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete group
+    content_type: 10
+    codename: delete_group
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view group
+    content_type: 10
+    codename: view_group
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add content type
+    content_type: 11
+    codename: add_contenttype
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change content type
+    content_type: 11
+    codename: change_contenttype
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete content type
+    content_type: 11
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view content type
+    content_type: 11
+    codename: view_contenttype
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add session
+    content_type: 12
+    codename: add_session
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change session
+    content_type: 12
+    codename: change_session
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete session
+    content_type: 12
+    codename: delete_session
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view session
+    content_type: 12
+    codename: view_session
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can buy ticket
+    content_type: 7
+    codename: buy_ticket
+- model: auth.group
+  pk: 1
+  fields:
+    name: Cinema Manager
+    is_active: true
+    permissions:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 21
+    - 22
+    - 23
+    - 24
+    - 17
+    - 18
+    - 19
+    - 20
+    - 25
+    - 49
+    - 26
+    - 27
+    - 28
+    - 4
+- model: auth.group
+  pk: 2
+  fields:
+    name: Club Manager
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: auth.group
+  pk: 3
+  fields:
+    name: Student
+    is_active: true
+    permissions: []
+- model: auth.group
+  pk: 4
+  fields:
+    name: Customer
+    is_active: true
+    permissions:
+    - 49
+    - 28
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: cinema
+    model: user
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: cinema
+    model: category
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: cinema
+    model: customer
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: cinema
+    model: movie
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: cinema
+    model: theater
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: cinema
+    model: screen
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: cinema
+    model: ticket
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: sessions
+    model: session
+- model: sessions.session
+  pk: 5z9usnn1jc22na5fl69herk60z900ji8
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hBokTIu3fcMZJiZStVAUtqV8e7apAvd_vfef6mI25rj1mSJM6uLsur0uyWkh5Qd8B3LrWqqZV3mpHdFH7TpsbI8r4f7d5Cx5W_tORnjXJKB0MgZA6MXkC4F2zuBDhM4SyCmJ7JiQJgm8AaC9c4OblLvD_zgODE:1pul5u:lGrrHptxHhecNUMoKRQadim6Ahyrj6cdOisE32TS6xE
+    expire_date: 2023-05-19 02:22:50.049569+00:00
+- model: sessions.session
+  pk: t04szexmn1e7snljc3h3lktj2fj8w1uz
+  fields:
+    session_data: .eJxVjEEOwiAQRe_C2hBokTIu3fcMZJiZStVAUtqV8e7apAvd_vfef6mI25rj1mSJM6uLsur0uyWkh5Qd8B3LrWqqZV3mpHdFH7TpsbI8r4f7d5Cx5W_tORnjXJKB0MgZA6MXkC4F2zuBDhM4SyCmJ7JiQJgm8AaC9c4OblLvD_zgODE:1pudtM:Lr-W55kaNS8mQ7DBGuY00vNWlcnAzfIxdL88JKBkwp4
+    expire_date: 2023-05-18 18:41:24.747654+00:00
